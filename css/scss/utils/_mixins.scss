@@ -1,0 +1,77 @@
+/* Smartphones */
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$large-desktop-width: 1200px;
+$slarge-desktop-width: 1680px;
+
+@mixin mobile{ /* < 480px */
+	@media (max-width: #{$mobile-width - 1px}) {@content;}
+}
+
+@mixin min_mobile{ /* >= 480px */ 
+	@media (min-width: #{$mobile-width}) {@content;}
+}
+
+@mixin max_mobile{ /* <= 480px */ 
+	@media (max-width: #{$mobile-width - 1px}) {@content;}
+}
+
+@mixin mobile_landscape{ 
+	@media (max-width: #{$tablet-width - 1px}) and (orientation: landscape) {@content;}
+}
+
+/* Tablets */
+@mixin tablet_portrait{ /* 480px - 767px */
+	@media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {@content;}
+}
+
+@mixin tablet_landscape{ /* 768px - 991px */
+	@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {@content;}
+}
+
+@mixin min_tablet{ /* >= 768px */ 
+	@media (min-width: #{$tablet-width}) {@content;}
+}
+
+@mixin max_tablet{ /* <= 768px */ 
+	@media (max-width: #{$tablet-width - 1px}) {@content;}
+}
+
+@mixin tablet_landscape_2{ /* <= 1200px & landscape */ 
+	@media (max-width: #{$large-desktop-width - 1px}) and (orientation: landscape) {@content;}
+}
+
+/* Desktops and laptops */
+@mixin desktop{ /* 992px - 1199px */
+	@media (min-width: #{$desktop-width}) and (max-width: #{$large-desktop-width - 1px}) {@content;}
+}
+
+@mixin min_desktop{ /* >= 992px */ 
+	@media (min-width: #{$desktop-width}) {@content;}
+}
+
+@mixin max_desktop{ /* <= 992px */ 
+	@media (max-width: #{$desktop-width - 1px }) {@content;}
+}
+
+/* Large screens  */
+@mixin ldesktop{ /* 1200px - 1680px */
+	@media (min-width: #{$large-desktop-width}) and (max-width: #{$slarge-desktop-width - 1px}) {@content;}
+}
+
+@mixin ldesktop_2{ /* 1200px - 1680px && <= 1050 height*/
+	@media (min-width: #{$large-desktop-width}) and (max-width: #{$slarge-desktop-width}) and (max-height: #{$desktop-height}) {@content;}
+}
+
+@mixin min_ldesktop{ /* >= 1200px */ 
+	@media (min-width: #{$large-desktop-width}) {@content;}
+}
+
+@mixin min_ldesktop2{ /* >= 1320px */ 
+	@media (min-width: 1320px) {@content;}
+}
+ 
+@mixin max_ldesktop{ /* <= 1200px */ 
+	@media (max-width: #{$large-desktop-width - 1px}) {@content;}
+}

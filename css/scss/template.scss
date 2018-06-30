@@ -1,0 +1,23 @@
+/*** Variables ***/
+@import '_vars';
+
+/*** Misc settings ***/
+@import 'utils/_mixins';
+@import 'utils/_animations';
+
+/*** General settings ***/
+@import '_general';
+@import '_site-header';
+@import '_site-footer';
+
+/*** Pages ***/
+
+/*** Elements ***/
+@import 'elements/_toTop';
+@import 'elements/_popup';
+@import 'elements/_titleBlock';
+@import 'elements/_newsletter';
+@import 'elements/_price-list';
+@import 'elements/_iconbox';
+@import 'elements/_buttons';
+@import 'elements/_paralax';

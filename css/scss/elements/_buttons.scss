@@ -1,0 +1,103 @@
+.btn {
+  font-family: $menuFont;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 30px;
+  letter-spacing: 1px;
+  transition: background-color .15s ease-out;
+  border-radius:0px;
+  margin-bottom: 30px;
+  &--round {
+    border-radius: 3px;
+  }
+  &--line {
+    border: 2px solid #242424;
+    padding: 18px 30px;
+  }
+  &--line:hover {
+    color: #000;
+  }
+  &--black {
+    background: #000;
+    color: $white;
+    letter-spacing: 0px;
+  }
+  &--black:hover {
+    background-color: #000;
+    color: $white;
+  }
+  &--color {
+    background: #fc0;
+    color: $white;
+  }
+  &--color:hover {
+    background: $hoverColor;
+    color: $white;
+  }
+  &--hover {
+    background:  #fc0;
+    color: $white;
+  }
+  &--hover:hover {
+    background:  #000;
+    color: $white;
+  }
+  &--md {
+    padding: 16px 25px;
+    font-size: 14px;
+    line-height: 1.3333333;
+  }
+  &--font-big {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: none;
+  }
+  &--section {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0px;
+  }
+  &--forth {
+    @include min_ldesktop {
+      width:25%;
+    }
+  }
+  &--35 {
+    @include min_ldesktop {
+      width:35%;
+    }
+  }
+
+  &--65 {
+    @include min_ldesktop {
+      width:65%;
+    }
+  }
+  &--50 {
+    @include min_ldesktop {
+      width:50%;
+    }
+  }
+  &--30 {
+    @include min_ldesktop {
+      width:30%;
+    }
+  }
+  &--40 {
+    @include min_ldesktop {
+      width:40%;
+    }
+  }
+}
+.btn:active, .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+.btn:focus, .btn:visited, .btn:hover {
+  outline: 0;
+}

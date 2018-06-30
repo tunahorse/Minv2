@@ -1,0 +1,79 @@
+.txt-light {
+  color: $white;
+}
+.txt-dark {
+  color: $templateColor;
+}
+.txt-black {
+  color: $titleColor;
+}
+.txt-color {
+  color:$hoverColor;
+}
+.home-subheading {
+  font-size: 18px;
+  font-weight: 300;
+}
+.title-block {
+  margin-bottom: 25px;
+  &__title {
+    font-family: $titleFont;
+    font-size: 66px;
+    line-height: 68px;
+    font-weight: 700;
+    letter-spacing: 20px;
+    margin-bottom: 20px;
+    &--specialty {
+      font-weight: 400;
+      @include max_tablet {
+        letter-spacing: 10px;
+      }
+    }
+    &--about {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      margin-bottom: 25px;
+    }
+    &--menu {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 5px;
+    }
+    &--delivery {
+      margin-top:0;
+      font-size: 36px;
+      line-height: 46px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      margin-bottom: 25px;
+    }
+    &--reservation {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom:30px;
+    }
+  }
+  &__subtitle {
+    font-size:18px;
+    line-height: 28px;
+    font-family: $defaultFont;
+    font-weight: 300;
+    &--about {
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    &--menu {
+      font-family: $menuFont;
+      font-size: 12px;
+      font-weight: 700;
+      color: #ccc;
+      text-transform: uppercase;
+    }
+    &--reservation {
+
+      font-weight: 700;
+      margin-bottom:30px;
+    }
+  }
+}

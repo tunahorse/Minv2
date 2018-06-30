@@ -1,0 +1,57 @@
+/** All footer code will be placed here */
+.footer-social {
+  padding: 0;
+  margin-top: 10px;
+  list-style-type: none;
+  &__item {
+    margin: 5px 3px;
+    display:inline-block;
+    position: relative;
+    a {
+          padding: 22px;
+          text-align:center;
+          display: block;
+          color: #666;
+    }
+    a:hover {
+      color: #666;
+    }
+
+  }
+}
+.footer-wrapper {
+  width: 100%;
+  margin:0 auto;
+  text-align:center;
+}
+.footer-nav {
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+  @include max_tablet {
+    text-align: center;
+    }
+  &__item{
+      display:inline-block;
+      margin: 0 10px;
+      position: relative;
+      a {
+      font-size: 11px;
+      line-height: 26px;
+      font-family: $menuFont;
+      font-weight: 700;
+      color: rgba(255,255,255,0.2);
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    a:hover {
+      color: rgba(255,255,255,0.5);
+    }
+    @include max_tablet {
+      display: block;
+      }
+  }
+}

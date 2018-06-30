@@ -1,0 +1,93 @@
+.mfp-iframe-holder .mfp-content--login {
+  margin: 0 auto;
+  text-align: center;
+  width: 440px;
+  height: 480px;
+  box-shadow: 0 0 20px #000;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position:relative;
+  @include max_tablet {
+        width: 340px;
+  }
+  .mfp-iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.mfp-iframe-holder .mfp-close {
+  top: 0;
+  right: 15px;
+  color: grey;
+  opacity: .65;
+}
+.mfp-iframe-holder .mfp-close:hover {
+  opacity: 1;
+}
+.body--login {
+  background: #ededed;
+}
+.page-wrapper--login {
+  padding: 50px;
+}
+#login-form {
+  margin-bottom: 20px;
+}
+.form-control--fancy {
+        border-radius: 0px;
+        padding: 26px 16px 6px;
+        height: auto;
+        width: 100%;
+  }
+.form-control--fancy:focus {
+    border-color: rgba(0,0,0,.26);
+    box-shadow: inherit;
+  }
+
+.fancy-form-label {
+    font-family: $menuFont;
+    color: #969696;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    cursor: text;
+    transition: all .25s ease;
+  }
+
+
+.form-group {
+    position: relative;
+}
+.remember-popup {
+    margin: 0 0 20px;
+    display: block;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-shadow: none;
+    .checkbox--fancy {
+        float: left;
+        margin-right: 2px;
+        margin-top: 2px;
+      }
+}
+.auth_link {
+  font-size: 11px;
+  font-weight: 400;
+  color: #898989;
+  font-size: 10px;
+  font-weight: 600;
+
+}
+.auth_link:hover {
+  color: #585858;
+}
+.title--popup {
+  font-size: 16px;
+}
