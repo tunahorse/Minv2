@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* Color orange CSS */
+
+.orange .logo_elixir {background:url("../../images/color/logo_elixir_orange.png");}
+.orange #header .menu-item a:hover, .orange #header .menu-item.current a {color: #DD7E43;}
+.orange #header .menu-item.current .submenu a {color: #fff;}
+.orange #header .menu-item .submenu a:hover {color: #DD7E43;}
+
+.orange h2.section-title:before, .orange h2.section-title:after {color: #DD7E43;}
+
+
+.orange .slide-sep {background: url("../../images/color/slide-separator_orange.png");}
+.orange h2.section-title:before, .orange h2.section-title:after {content: url("../../images/color/header_decorator_orange.png");}
+
+.orange section.timetable .column-divider{background-image: url("../../images/color/column-divider_orange.png");}
+.orange section.reservations h4 span:before,
+.orange section.reservations h4 span:after {
+  border-bottom: 1px solid #DD7E43;
+}
+.orange .section.dark h2.section-title:before, .orange .section.dark h2.section-title:after {content: url("../../images/color/header_decorator_orange.png");}
+
+
+/* HOME SLIDER orange LOGO */
+.orange .logointro {background:url("../../images/color/logo_intro_orange.png");}
+
+@media only screen and (max-width : 568px) {
+	.orange .logointro {
+		width: 160px;
+		height: 137px;
+		background-size: cover;
+		margin-top: 160px;
+		margin-bottom: 10px;
+
+}
+.orange h2.section-title:before, .orange h2.section-title:after, .orange .section.dark h2.section-title:before, .orange .section.dark h2.section-title:after {
+		content: none;
+	}
+}
+
+/* ABOUT orange COLOR */
+.orange h2.heading{color: #DD7E43;}
+.orange p.text strong {color: #DD7E43;}
+
+/* OPENING HOURS orange COLOR */
+.orange section.timetable .section-subtitle {color: #DD7E43;}
+.orange section.timetable .section-subtitle.hours {color: #ffffff;}
+.orange .timetable-decorator { background:url("../../images/color/timetable-decorator_orange.png");}
+.orange .timetable-decorator2 { background:url("../../images/color/timetable-decorator2_orange.png");}
+
+/* MENU orange COLOR */
+.orange section.menu h3 {color: #CE763F;}
+.orange section.menu span {color: #DD7E43;}
+.orange a.button.menu, .orange .button.menu {
+	border: 2px solid #DD7E43;
+	color: #DD7E43;
+}
+.orange a.button.menu:hover, .button.menu:hover {color: #ffffff; background: #DD7E43;}
+
+.orange section.menu .title {color: #CE763F;}
+.orange section.menu .subtitle {color: #DD7E43;}
+
+
+/* GALLERY orange COLOR */
+.orange nav.primary ul li a.selected span, .orange nav.primary ul li a span:hover {border-bottom-color:#DD7E43;}
+
+/* RESERVATIONS orange COLOR */
+/*.orange .reservations_logo {background:url("../../images/color/reservations_logo_orange.png");}
+*/.orange a.button, .orange .button {border-color: #DD7E43; color: #DD7E43;}
+.orange a.button:hover, .orange .button:hover {background: #DD7E43; color: #ffffff;}
+
+/* TESTIMONIALS orange COLOR */
+/*.orange .testimonials_img {background:url("../../images/color/testimonials_logo_orange.png");}
+*/.orange section.testimonials h2 {color: #DD7E43;}
+.orange .item span.author {color: #DD7E43;}
+.orange .carousel-wrapper.with_pagination .owl-theme .owl-controls .owl-page span {border-color: #DD7E43;}
+.orange .testimonials.carousel-wrapper.with_pagination .owl-controls .owl-page.active span, .orange .testimonials.carousel-wrapper.with_pagination .owl-controls.clickable .owl-page:hover span {background: #DD7E43;}
+/* CONTACT orange COLOR */
+.orange a.button.contact, .orange .button.contact {color: #ffffff; background: #DD7E43;}
+.orange a.button.contact:hover, .orange .button.contact:hover {color: #DD7E43; background: #ffffff;}
+
+/* FOOTER orange COLOR */
+.orange #footer .social li .icon:hover {background:#DD7E43;}

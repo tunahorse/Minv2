@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Color black CSS */
+
+.black .logo_elixir {background:url("../../images/color/logo_elixir_black.png");}
+.black .logo_elixir.dark {background:url("../../images/color/logo_elixir_black_dark.png");}
+.black #header .menu-item a:hover, .black #header .menu-item.current a {color: #999996;}
+.black #header .menu-item.current .submenu a {color: #fff;}
+.black #header .menu-item .submenu a:hover {color: #999996;}
+
+.black h2.section-title:before, .black h2.section-title:after {color: #999996;}
+
+
+.black .slide-sep {background: url("../../images/color/slide-separator_black.png");}
+.black h2.section-title:before, .black h2.section-title:after {content: url("../../images/color/header_decorator_black.png");}
+
+.black section.timetable .column-divider{background-image: url("../../images/color/column-divider_black.png");}
+.black section.reservations h4 span:before,
+.black section.reservations h4 span:after {
+  border-bottom: 1px solid #999996;
+}
+.black .section.dark h2.section-title:before, .black .section.dark h2.section-title:after {content: url("../../images/color/header_decorator_black.png");}
+.black .section.dark {background: #000;}
+.black section.dark textarea {background: #222121;}
+.black .section.dark input[type="text"] {background: #222121;}
+.black #footer {background: #000000;}
+
+
+/* HOME SLIDER black LOGO */
+.black .logointro {background:url("../../images/color/logo_intro_black.png");}
+
+@media only screen and (max-width : 568px) {
+	.black .logointro {
+		width: 160px;
+		height: 137px;
+		background-size: cover;
+		margin-top: 160px;
+		margin-bottom: 10px;
+
+}
+.black h2.section-title:before, .black h2.section-title:after, .black .section.dark h2.section-title:before, .black .section.dark h2.section-title:after {
+		content: none;
+	}
+}
+
+/* ABOUT black COLOR */
+.black h2.heading{color: #999996;}
+.black p.text strong {color: #999996;}
+
+/* OPENING HOURS black COLOR */
+.black section.timetable .section-subtitle {color: #999996;}
+.black section.timetable .section-subtitle.hours {color: #ffffff;}
+.black .timetable-decorator { background:url("../../images/color/timetable-decorator_black.png");}
+.black .timetable-decorator2 { background:url("../../images/color/timetable-decorator2_black.png");}
+
+/* MENU black COLOR */
+.black section.menu h3 {color: #2C2C2D;}
+.black section.menu span {color: #999996;}
+.black a.button.menu, .black .button.menu {
+	border: 2px solid #999996;
+	color: #999996;
+}
+.black a.button.menu:hover, .button.menu:hover {color: #ffffff; background: #999996;}
+
+.black section.menu .title {color: #2C2C2D;}
+.black section.menu .subtitle {color: #999996;}
+
+
+/* GALLERY black COLOR */
+.black nav.primary ul li a.selected span, .black nav.primary ul li a span:hover {border-bottom-color:#999996;}
+
+/* RESERVATIONS black COLOR */
+/*.black .reservations_logo {background:url("../../images/color/reservations_logo_black.png");}
+*/.black a.button, .black .button {border-color: #999996; color: #999996;}
+.black a.button:hover, .black .button:hover {background: #999996; color: #ffffff;}
+
+/* TESTIMONIALS black COLOR */
+/*.black .testimonials_img {background:url("../../images/color/testimonials_logo_black.png");}
+*/.black section.testimonials h2 {color: #999996;}
+.black .item span.author {color: #999996;}
+.black .carousel-wrapper.with_pagination .owl-theme .owl-controls .owl-page span {border-color: #999996;}
+.black .testimonials.carousel-wrapper.with_pagination .owl-controls .owl-page.active span, .black .testimonials.carousel-wrapper.with_pagination .owl-controls.clickable .owl-page:hover span {background: #999996;}
+/* CONTACT black COLOR */
+.black a.button.contact, .black .button.contact {color: #ffffff; background: #999996;}
+.black a.button.contact:hover, .black .button.contact:hover {color: #999996; background: #ffffff;}
+
+/* FOOTER black COLOR */
+.black #footer .social li .icon:hover {background:#999996;}

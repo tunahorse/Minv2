@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* Color gold CSS */
+
+.gold .logo_elixir {background:url("../../images/color/logo_elixir_gold.png");}
+.gold #header .menu-item a:hover, .gold #header .menu-item.current a {color: #B8AB69;}
+.gold #header .menu-item.current .submenu a {color: #fff;}
+.gold #header .menu-item .submenu a:hover {color: #B8AB69;}
+
+.gold h2.section-title:before, .gold h2.section-title:after {color: #B8AB69;}
+
+
+.gold .slide-sep {background: url("../../images/color/slide-separator_gold.png");}
+.gold h2.section-title:before, .gold h2.section-title:after {content: url("../../images/color/header_decorator_gold.png");}
+
+.gold section.timetable .column-divider{background-image: url("../../images/color/column-divider_gold.png");}
+.gold section.reservations h4 span:before,
+.gold section.reservations h4 span:after {
+  border-bottom: 1px solid #B8AB69;
+}
+.gold .section.dark h2.section-title:before, .gold .section.dark h2.section-title:after {content: url("../../images/color/header_decorator_gold.png");}
+
+
+
+/* HOME SLIDER gold LOGO */
+.gold .logointro {background:url("../../images/color/logo_intro_gold.png");}
+
+@media only screen and (max-width : 568px) {
+	.gold .logointro {
+		width: 160px;
+		height: 137px;
+		background-size: cover;
+		margin-top: 160px;
+		margin-bottom: 10px;
+
+}
+.gold h2.section-title:before, .gold h2.section-title:after, .gold .section.dark h2.section-title:before, .gold .section.dark h2.section-title:after {
+		content: none;
+	}
+}
+
+/* ABOUT gold COLOR */
+.gold h2.heading{color: #B8AB69;}
+.gold p.text strong {color: #B8AB69;}
+
+/* OPENING HOURS gold COLOR */
+.gold section.timetable .section-subtitle {color: #B8AB69;}
+.gold section.timetable .section-subtitle.hours {color: #ffffff;}
+.gold .timetable-decorator { background:url("../../images/color/timetable-decorator_gold.png");}
+.gold .timetable-decorator2 { background:url("../../images/color/timetable-decorator2_gold.png");}
+
+/* MENU gold COLOR */
+.gold section.menu h3 {color: #CE763F;}
+.gold section.menu span {color: #B8AB69;}
+.gold a.button.menu, .gold .button.menu {
+	border: 2px solid #B8AB69;
+	color: #B8AB69;
+}
+.gold a.button.menu:hover, .button.menu:hover {color: #ffffff; background: #B8AB69;}
+
+.gold section.menu .title {color: #CE763F;}
+.gold section.menu .subtitle {color: #B8AB69;}
+
+
+/* GALLERY gold COLOR */
+.gold nav.primary ul li a.selected span, .gold nav.primary ul li a span:hover {border-bottom-color:#B8AB69;}
+
+/* RESERVATIONS gold COLOR */
+/*.gold .reservations_logo {background:url("../../images/color/reservations_logo_gold.png");}
+*/.gold a.button, .gold .button {border-color: #B8AB69; color: #B8AB69;}
+.gold a.button:hover, .gold .button:hover {background: #B8AB69; color: #ffffff;}
+
+/* TESTIMONIALS gold COLOR */
+/*.gold .testimonials_img {background:url("../../images/color/testimonials_logo_gold.png");}
+*/.gold section.testimonials h2 {color: #B8AB69;}
+.gold .item span.author {color: #B8AB69;}
+.gold .carousel-wrapper.with_pagination .owl-theme .owl-controls .owl-page span {border-color: #B8AB69;}
+.gold .testimonials.carousel-wrapper.with_pagination .owl-controls .owl-page.active span, .gold .testimonials.carousel-wrapper.with_pagination .owl-controls.clickable .owl-page:hover span {background: #B8AB69;}
+/* CONTACT gold COLOR */
+.gold a.button.contact, .gold .button.contact {color: #ffffff; background: #B8AB69;}
+.gold a.button.contact:hover, .gold .button.contact:hover {color: #B8AB69; background: #ffffff;}
+
+/* FOOTER gold COLOR */
+.gold #footer .social li .icon:hover {background:#B8AB69;}

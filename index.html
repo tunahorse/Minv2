@@ -1,637 +1,426 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-	<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content=" width=device-width, initial-scale=1">
-		<title>Minchello's Pizzeria</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700%7CMontserrat:400,700%7COpen+Sans:300,400,700%7CRoboto" rel="stylesheet">
-		<link rel="stylesheet" href="fonts/icomoon/style.css">
-	  <!-- CSS assets-->
-		<link rel="stylesheet" href="addons/Paraxify/paraxify.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link href="addons/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+<head>
+    <title> Minchello's Pizzaria</title>
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Yellowtail%7cCabin:400,500,600,700,400italic,700italic%7cLibre+Baskerville:400italic%7cGreat+Vibes%7cOswald:400,300,700%7cOpen+Sans:600italic,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
-	    <!-- Main theme stylesheet -->
-    <link href="css/template.css" rel="stylesheet" type="text/css">
-	</head>
-	<body>
-		<div id="page_wrapper">
-      <!-- Responsive menu start -->
-      <ul class="ph__resMenu">
-        <li class="ph__resMenu-back">
-          <span class="ph__resMenu-backIcon"><i class="fas fa-angle-left"></i></span>
-					<a href="#" class="ph__resMenu-backLink">Back</a>
-        </li>
-        <li><a class="active" href="index.html#about"><span>About us</span></a></li>
-        <li><a class="ph__menu-link" href="index.html#menu"><span>Our menu</span></a>
-        <li><a class="ph__menu-link" href="index.html#offers"><span>Catering</span></a></li>
-    
-      </ul>
-      <!-- Responsive menu end -->
-      <header id="header" class="site-header header--sticky header--not-sticked site-header--absolute">
-        <div class="site-header-main-wrapper">
-					<div class="topbar-full bg-color--white">
-						<div class="flex topbar-full__wrapper">
-							<!--left column-->
-							<div class="flex flex-col flex-wrap flex-center-y flex-start-x flex-basis-auto  topbar--left">
-									<ul class="topnav topnav--lang">
-										<li class="topnav--lang__item">
-											<a href="#" class="linkitem--dropdown">
-												
-												<span class="flag-lang">Minchello's Pizzaria</span>
-											</a>
-											
-										</li>
-									</ul>
-									<div class="call-to-action--phone">
-																				 CALL (972) 459-5565
-									</div>
-							</div>
-							<!--right column-->
-							<div class="flex flex-col flex-end-x flex-center-y flex-wrap flex-basis-auto  topbar--right">
-								
-								<div class="search header-search">
-									
+    <!-- META TAGS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
 
-									</a>
-									<div class="search-container">
-										<form id="searchform" class="gensearch__form">
-											<input id="search-input" class="inputbox gensearch__input" type="text" placeholder="SEARCH ...">
-											 <div class="gensearch__submit"><i class="fas fa-search "></i>
-												</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-          <div class="container siteheader-container">
-							<div class="flex-col flex-basis-auto">
-                <div class="flex-row site-header-row site-header-main">
-                  <!-- left column - logo -->
-                  <div class="flex-col flex flex-start-x flex-center-y flex-basis-auto flex-grow-0 flex-sm-half site-header-col-left">
-                    <div class="logo-container">
-                        <div class="site-logo">
-                            <a href="index.html" class="site-logo-anch">
-                                <span class="logo-img-sticky site-logo-img-sticky">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30">
-                                    <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M41.962,13c-1.522-2.569-4.5-4.042-8.159-4.042A11.446,11.446,0,0,0,26.915,11.6a11.626,11.626,0,0,0-8.564-3.589,9.588,9.588,0,0,0-7.99,4.671A7.51,7.51,0,0,0,9.2,18.745c0.949,3.962,4.923,6.906,6.593,7.992v9.805a1.439,1.439,0,0,0,1.428,1.449H36.1a1.438,1.438,0,0,0,1.428-1.449V25.992a8.978,8.978,0,0,0,4.037-3.735C43.349,18.862,43.489,15.573,41.962,13Zm-2.914,7.9c-2.366,4.513-12.461,4.7-16.152,4.385a1.449,1.449,0,0,0-.237,2.887c0.158,0.014,1.235.1,2.812,0.1a33.885,33.885,0,0,0,9.206-1.16V35.1H18.652V25.923a1.453,1.453,0,0,0-.735-1.266c-0.05-.028-5.057-2.9-5.94-6.6a4.633,4.633,0,0,1,.759-3.771A6.808,6.808,0,0,1,18.425,10.9a8.88,8.88,0,0,1,6.354,2.607,24.4,24.4,0,0,0-3.222,4.1,1.46,1.46,0,0,0,.48,1.988A1.417,1.417,0,0,0,24,19.113c0.044-.073,4.428-7.261,9.806-7.261,2.637,0,4.718.962,5.712,2.637S40.338,18.434,39.048,20.9Z" transform="translate(-9 -8)"/>
-                                  </svg>
-                                </span>
-                                <img class="logo-img site-logo-img" src="img-assets/logo.png" alt="logo" title="phaeton" width="196" height="36">
-                            </a>
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+ 	<link rel="stylesheet" href="css/elixir.css" />
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/YTPlayer.css" rel="stylesheet">
+ 	<link rel="stylesheet" href="css/swipebox.css">
+
+ 
+ 
+    <!--[if lt IE 9]>
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <script src="./js/html5shiv.js"></script>
+        <script src="./js/respond.js"></script>
+    <![endif]-->
+</head>
+
+
+
+
+
+<body>
+		
+	<div id="mask">
+            <div class="loader">
+              <img src="svg-loaders/tail-spin.svg" alt='loading'>
+            </div>
+    </div>  
+
+
+        
+        <!-- BEGIN HEADER -->
+        <header id="header" role="banner">
+            <div class="jt_row container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                        </button>
+                    <a class="navbar-brand normal logo" href="#home"><div class="logo_elixir"></div></a>
+                    <a class="navbar-brand mini" href="#home"><div class="logo_elixir dark"></div></a>
+                    <a class="navbar-brand mini darker" href="#home"><div class="logo_elixir dark"></div></a>
+                </div>
+
+                <!-- BEGIN NAVIGATION MENU-->
+                <nav class="collapse navbar-collapse navbar-right navbar-main-collapse" role="navigation">
+                    <ul id="nav" class="nav navbar-nav navigation">
+                        <li class="page-scroll menu-item"><a href="#home-slider">Home</a></li>
+                        <li class="page-scroll menu-item"><a href="">Menu</a></li>
+\                        <li class="page-scroll menu-item"><a href="#reservations">Catering</a></li>
+                        <li class="page-scroll menu-item"><a href="#contact">Location</a></li>
+                    </ul>
+                </nav>
+                <!-- EN NAVIGATION MENU -->
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+
+
+
+        <!-- BEGIN HOME SLIDER SECTION -->
+        <section id="home-slider">
+            <div class="overlay"></div>
+            <!-- SLIDER IMAGES -->
+            <div id="owl-main" class="owl-carousel">
+                <div class="item"><img src="images/slider/01.jpg" alt="Slide 01"></div>
+                <div class="item"><img src="images/slider/02.jpg" alt="Slide 02"></div>
+                <div class="item"><img src="images/slider/03.jpg" alt="Slide 03"></div>
+            </div>
+            <!-- SLIDER CONTENT -->
+            <div class="slide-content">
+                <div class="voffset100"></div>
+                <span class="logointro"></span>
+                <div id="owl-main-text" class="owl-carousel">
+                    <div class="item">
+                        <h2>minchellos pizzeria</h2>
+                    </div>
+                    <div class="item">
+                        <h2>minchellos pizzeria</h2>
+                    </div>
+                    <div class="item">
+                        <h2>minchellos pizzeria</h2>
+                    </div>
+                </div>
+                <div class="slide-sep"></div>
+                
+                
+            </div>
+            <!-- BOTTOM ANIMATED ARROW -->
+            <a href="#about" class="page-scroll menu-item"><div class="mouse"><span></span></div></a>
+        </section>
+        <!-- END HOME SLIDER SECTION -->
+
+
+
+
+
+        <!-- BEGIN ABOUT SECTION -->
+        
+        <!-- END ABOUT SECTION -->
+
+
+
+
+        <!-- BEGIN TIMETABLE SECTION -->
+        <section id="timetable" class="section timetable parallax">
+            <div class="container">
+                    <div class="jt_row jt_row-fluid row">
+                    	<span class="column-divider"></span>
+                        <div class="col-md-12 jt_col column_container">
+                            <h2 class="section-title"><span class="timetable-decorator"></span><span class="opening-hours"> Hours</span><span class="timetable-decorator2"></span></h2>
+                        </div> 
+                        <div class="col-md-12 jt_col column_container">    
+                            <div class="section-subtitle">
+                                Call For Catering!
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-md-offset-3 jt_col column_container">    
+                            <div class="section-subtitle days">
+                                Monday to Saturday
+                            </div>
+                            <div class="section-subtitle hours">
+                                10:00 AM <br>09:00 PM
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-3 jt_col column_container">    
+                            <div class="section-subtitle days">
+                                Sunday
+                            </div>
+                            <div class="section-subtitle hours">
+                                12:00 PM <br>06:00 PM
+                            </div>
+                        </div>
+                        <div class="col-md-12 jt_col column_container">    
+                            <div class="number">
+                                Catering number: 
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </section>
+        <!-- END TIMETABLE SECTION -->
+
+
+
+
+        BEGIN MENU SECTION
+        <section id="menu" class="section menu">
+
+            <div class="container">
+                    <div class="jt_row jt_row-fluid row">
+                        <div class="col-md-12 jt_col column_container">
+                         <div class="voffset100"></div>
+                            <img class="center menu-logo" src="images/menu_logo.png" alt="Menu Logo">
+                            <div class="voffset60"></div>
+                        </div>
+                        
+                        <div class="col-md-4 jt_col column_container">    
+                            <h3>Great Pasta</h3>
+                            <ul>
+                                <li>
+                                    Filet
+                                    <div class="detail">7 oz. Center Cut10 oz. Double cut<span class="price">$14.49</span></div>
+                                </li>
+                                <li>
+                                    Special Filet
+                                    <div class="detail">10 oz Greg Norman Ranch<span class="price">$20.50</span></div>
+                                </li>
+                                <li>
+                                    New York Strip
+                                    <div class="detail">9 oz. Center Cut12 oz. Double cut  oz <span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Porterhouse
+                                    <div class="detail">7 oz. Center Cut10 oz.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Delmonico
+                                    <div class="detail">10 oz Greg Norman Ranch<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                        <div class="col-md-4 jt_col column_container">    
+                            <h3>Our Pizzas</h3>
+                            <ul>
+                                <li>
+                                    Filet
+                                    <div class="detail">7 oz. Center Cut10 oz. Double cut<span class="price">$14.49</span></div>
+                                </li>
+                                <li>
+                                    Special Filet
+                                    <div class="detail">10 oz Greg Norman Ranch<span class="price">$20.50</span></div>
+                                </li>
+                                <li>
+                                    New York Strip
+                                    <div class="detail">9 oz. Center Cut12 oz. Double cut  oz <span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Porterhouse
+                                    <div class="detail">7 oz. Center Cut10 oz.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Delmonico
+                                    <div class="detail">10 oz Greg Norman Ranch<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 jt_col column_container">    
+                            <h3>Combos</h3>
+                            <ul>
+                                <li>
+                                    Filet
+                                    <div class="detail">7 oz. Center Cut10 oz. Double cut<span class="price">$14.49</span></div>
+                                </li>
+                                <li>
+                                    Special Filet
+                                    <div class="detail">10 oz Greg Norman Ranch<span class="price">$20.50</span></div>
+                                </li>
+                                <li>
+                                    New York Strip
+                                    <div class="detail">9 oz. Center Cut12 oz. Double cut  oz <span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Porterhouse
+                                    <div class="detail">7 oz. Center Cut10 oz.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Delmonico
+                                    <div class="detail">10 oz Greg Norman Ranch<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-md-offset-4 jt_col column_container">    
+                            <a href="menu.html" class="button menu center">View Complete Menu</a>
+                        </div>
+                        
+                    </div>
+            </div>
+            <div class="voffset30"></div>
+        </section> -->
+        <!-- END MENU SECTION
+
+
+
+
+        <!-- BEGIN GALLERY SECTION -->
+        <section id="gallery" class="section gallery dark">
+                <div class="jt_row jt_row-fluid row">
+                    <div class="col-md-12 jt_col column_container">
+                            <h2 class="section-title">Delivery</h2>
+                            <div class="col-md-6 col-md-offset-3 jt_col column_container">    
+                                <div class="section-subtitle">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMEAAAEFCAMAAABtknO4AAACEFBMVEX////tGyQREiQ5jrcjHyCH1vc+dJBjr9MAAADLy83+0J7xGyTOnm3zGyQhHR4AHx//ywU5cY8IAAAgHyAdGBkAABv5+fmvw84aFRbs7Ozm7O4wbIsAABgAHiDx8fEVDxEVHyB+ze7/0gDV1NTf39/rAAC0tLQYHyBrr80vKyzj4+PnGySNjIw1MjO9vLyurq7/2KRnZWZ6eXn/1gBbWVqDgoINHx8wHh+pHCJLSUnZGyMAAA+LiYqhoKAjhrI7ODlAHiBzHSDGHCMADhByc3tGmL8AACFLHh9tHiHNHCJTUlJVpMp+HSBEQkNiHSHYrg2THSLO4u2ZHCI3YHd/scwbHCtyv+GZwNWl3/gnMjkPKy7c8vtFRlDsvYw1NUAqAAA/AADB6PnYtIq1jGFCOTGFcVntPx+cg2UrPUi2HCGjuceEAAWLqbnB6fmWAAA9LwBYAABqAADCnQ5xlamMcAAwIwBcSAAxTl4fEAhPQRgfAAtyYA7xjpMlFgD0r6/42dnxUVjSk5VuRkntZmr0fYO9AAPsOkD2w8TjtgCUdwCsigD6sQr3oRH0ehfwWRsRIRQwAyA4NxunjW6TamtfUEPyp6lXP0jxcHYjEwBnTTSnjDWpoIteLS9UQw9HAABxYVI7LiOgS0yiUwDpeQN3Y2WjkmCDei6yp4OGY0Nxb1KgiGqwjI5WGgBMOgC+dADKUA/d7n+jAAAgAElEQVR4nO19iX8TV5Zu2RTmKqJKtlQuS8JSGUtIlCRLlCitViFZMpEtS/ICZomNWWICIqRDDA0h7u6ku9MdQ5aZMCQ9mX5pmDfz3jDTb+b9i+/cW1VSabUAp3Hm9w6Jrc2q892zn7sURb1ZGhsZGnK+YR5ej8aODI0YEPDLt27fvXv71jL/5lh6SWpCsHz3yJEjI0MjI/Dr7vKbZOslyIDACfzfHfO6qdtu59jdkZ8LhgaCZeBffXQb/3DfGjpy683x1T/VEYwdGRmDX7x37NbdW2P4JeftI3fdb5a7fkhHsHwEuyQeBv5IwwzGfg4QNATuoSPwc3noyJBGI0SlAMKbZnBX0hDcxjo/VuefYBgCMdza/7agInAewbrfBABjAAh3j+z3eKciuH1kmUTnVnK6b4/sdz26RRAMDbXqkCqEu7f5W0f2d1jgcQi+O3YEQsBQBxkA986R22+ayZ7Ej6iOZ4xqswJVCNgS3jSTPUlH4MQBoRMEJ2jXvlYjFcHQbXcnM1DVyHtk7E1z2YsIAuLzuyC4Beq1rw1BRaClFZ0R8MveN81lT8Le1IQfdLTkn0N6Cimpll13AjC0v22AUKM+uN1JCPs+pzAi6KxG+79eNlSZHYTwMzCDpkq/La8Y+RmIoAmBsxXC/o7GGjV1W5xDRkUa+Rk4Iqq148XfPjJS539of0cynVp6dpTzNtT6mIZ+FgKg2hEAOceA9nEcGCONRUJ3McHj27dvAY2ptH9Z58MxWQp5sNsHpkfqhFV+5IiB9qv/idg+fPT43odIDnTJo/d5JuSevb8zOTk8Obn1a2TC+ejPAIE7EFZCISXsgKjqiWbR9tYwpsnhh8hD3e1Q1O8vBHx4dvXX9+/d277/S7SuKL/77W9/+7vRbWAf07dTbue+RMA719Y+uHrhwlXQ+SyyPx5eBL2ZHF589OH0P3z3m+++++3q9tbWDijSIgpRt7tDeCMI+LUPLlw4SOjoVSpQurdFLw5vL05Oqnqz9XD1r9+BGMafv/32w8fDk49W3Z1LyjeDwLmmM4/pwhoVeP548dvn2w//bnv70dbi8PDi4s7w48Lvvvvdd98/2nkkvv3t4rA1zO8TLeLXDMxjWqMckam/i//9XLm8VJ6p/v1o4duHD3dADjsPv//+t797dHJy+N7bq1uPZnvY8k+MwHn2fD1mtrJ/8CBPKX40l0wHzQymgWA6OTfheriItWl7/B++px8BmC3b6iOphyH81AgWrjq7sH/w4AdUDJXTZrN5QCX4bTYHVxKD97A9bA8OPnr4HEx5kZuWOxfFfxMEhzAA/oN29oEoE8ozOvt1YgZWBr/dATE8HPxx597bAGFrNNWlO/Q3QOBecFL81Y78H7xASUsMjDrRIAZ+mwdUOOZ00QKatDO4PTp8jwZF2kZh6u4bQsAvLHdQH0JXeXc2yATzyZWlmWq1OrOUrAUZVSRmpjy6NTn56Mct7uTzR4BlXO6eHP3ECNYOHe3M/xqgUy4XXRZbsTo3N1etFhNxl8tfzoNBY1VaeXtrcnh0596jxVGwiR9RgITlkSGtdf23yU355fPHFw4dOtcBwweQ+0jIWk3ODzANCuZXii56hegSszS6dXL73uTgyedbENNQhFI1zzkGKJadTu/y8rJn2WQyjf1kpaXz7CFgX6NzLQZAmUqoipUGPGh+BSJBsVisVstLyXR6JcHWsBiYufjO1vPJe1uP7kGqMR2jNG08O9JWozWPm9uxRx2X5Qb/QEebBOCQ0Mw86Hw6OZOzWOITE36/ze/3T8TjFtvc0oxrLghGHUx8u/j28M69xYdgCIJEXThKvuR4dwRubyRWoj9BF0N7IRf+wqEuCNaosOsKqHswWY1bJmy0RqyNswuCMF0oFBKuXJoZYJKFH99enNwefg4InjdFhLt3b6t065ZWZLoDvpg88fFfPqqlg/PJO9aSEnhNAGsHz3VBsEYpaMXMBJcSLn+dfZoV6M0fXqj0w9PNAjcPmpTzgzk/msQIfikbyxy1yhy6e2sZL0wIhEPSxU+A+fk08WXmb5h07c4n8uuA4EFnuyD4AADUGHMyEW+wT7PTmy/ePWygd5/ak+CP4oOPJx8Pf4sR1PMKqJShblaZpxweRapcufM+jDyOKNiLffPVlyffg+ACID6WI68IYg2z2hnBBSoMcThYdRn4p+3ijTrrP2w+/QGDeVGYGUjbBu9NLu5gO/h1FOd2eOyH7t5edvKY+Ui0VPzoF/NpPYoQ9ochGTx5jOQnGAT3SiDUFKIzgjX3xRqTTkwY+KenfwDONRE8/+Hdd999gR+JrjJT9A8OD+/8CAimQ9RdzPwYZt7t9UVL/+OjX6SDAzrzMP7vff0V5LSL//TnP//bX3/BqC+Cr7gzUVJe0rA1r9cZARX5ixn028C/ILwApXk6/eJwM7349u9qRf/448nhbfCmyMQPYeYpbziEmZ/HzJNUkESSP/zh6y8Xtx79259NSogKBaiICkEHUUjhrk2fxOtJREcEF6hoGdS7oT8IRVPAbUMIDVMQtnIJmnt4chGqtMfTjuVblCkkZ+fezzdGfgCiSfKf//rXf42Y/l3xuU2yRPEVNsyHAUIjY8Re+y/oYjTs6AfAWt3ndEEQss4XVRvgBISkiJsytY6+RlNbW+P04PYk1G2T2ynq1rIbiej9eYYxprNp2UmBz1HclCxQVJZ2UzFZMkX+4Z9rxpwXJBEEEJaUsqsoGgC6aBHPywhZBasVoWwmDGqxxrs327nHAnl67+T91UEYf0i0/zND3QUElDd0EX2UN2L4l/9togJuH+2lKg4qIkl//l//tDN5jOmQtDPBWtmKhN4YDAC6+iLKE1EUxUe+aO3qwaMfUKLKsc68zf5iEz+/cX9yC6d3UDrvII8bUlCE/8YbijeBeO9/KlTk3sl7t0yr//R4kXQKTrZyT4xlvvb+ZSSVIr0AfHB0VwQkKVXRXlUt5iplA25/sG/Wh/8Fdk7w4OHw8Nuk4Jzc2oDkeoyyan/qCVkwCK22Y/7wr75/3zm5s3NyUqXh4Sbm4R8wfwVZohHwSdFwDwBXm5LQbgiIJA4eNIS4VawywnSbKT8chuIAd+4mt7EvvUVxjWt5Yi7r0ryZSMLMHGPe++ZrQt+818S8GSz9oyvIVQrpZlwy9ZBAE5M9ERjpA2oas0s/PXzp0luXLl3SAVy69nB4cfXZ09Gd4eF/9DrxLKXYdD2T5LqSDJrbFJ5YLkCDpPejywVLJeYzqv5UdztoLSVfDgFw/JZOAAM/ufRw+OG1Eyc2wRut40mEMWqq5ZJuX6nwUX6AaWF+IJiuLd35pPBOKurztC7epLsiaKvl+0WwxiPC8olrT5+8ZaRL24+eXLtx+MXDk9sRqJLHKDettHl0cE4gCKY+8oR5a+GdUqydeUJcNwRrbZz1jcCNThCOnz65dqkJwbc3Dj8/fHhze9jm9h4ZojyiYEWSr5UvEMQn7wexvYLawMhflEPhzswTsnexg3YAL4/g2fW3mmVw7a0XkHCMbz2exbUBH87KdmRFU+3liydqfz/9iztcRQqZvLsUaEJnX8R34KxvBBTSOL5xTf19QsdAEryHwx9CTjQCCKJUwBcVERKktnEMSCXFFNi9ugyEka/jG50aKv1b8uq1prH/jxsahMM/3Hix+nxncRWvyDniNpXwpdwmDKIUbuHW18vNa9ybYinIBDomRx07Qv0iuEDFnp4wADhxfVOTxYvphz/eG568H6LOHz++wJtS2uXcYQk4iTRh8HUeWo14TzhagWxG9nWWU+eWYr8IDlIBZBDCiWvPrpGnl96lcccRSgMPUVLeIxnGU5lComLgxtc1WQiYQiUaWcFEeDnU+SMdrPilEFylMkQI18H5n3jrP6Y1h3RYvGfDffhHq3CJDw4eXQtkY0bdAUHYlbrP6YjAG1ZkULlKLKIOfSjaGUEXxvpGcJCnpp8AhEuiCIXOpg7g6ejWc0jUJj+UKDcwemEN50NiKdLQ40AMoZCGyae0Mh9KQfaejUU8DdSqJbVRt7Zo/wguUCZVj55cv6HrExjB6tZDSIomEYyuJAeoCxgDOE5UaVgArwhI1SUDAq8vNoUQSoV8zW7X4ZNSVAda68Zb/wjAoUZRUzADAMg3+/gelAaTCLxMAHEObAxncZM3XEFSw/OEswSDhsCkgLtBstJajoErtiIu1jGadWXrJRCAHpWEawaHdPgFwkn/1j1A8MsMDOsvt2PUhaN4EcvtZQCUQdZQnUeTDB8OKxTvAxfFxdprSa+SRUI03CVOd9Ohl0NwkKJkVM+KLhEAlPfDnR+HdyYfj4cd8o+L69RVsj7kyJGhWzDmGahQ6yPqjbJSKAQm296U4E0xAaUi3ZsVXfzQSyO4gHl6io0A0ut3n06XqLU1amPn/s7w4uQjhJ4vLm7w9QkEnKZKdtpuiAmOkB21t+iw7nBdB38XHXpJBNgWPDJ6jhuPT6c5QaLWLlCR+zv3Tj5ePInrzPsSdb7RdXR7BBb3ChBd96cB1MIoxD1hatcmS+dY9koI8JSCD9kFwc6x9k1BIULYerR18tH2461HD0GtztZlcJuKJlgCISXWDQIZNQXYp1N9NLo6JXSvjODoGqVYgS9W4J48kbIhiqc8kJc+3tl5/Ojx/Sn32vH6fKwzMP3kxrSdZa0ePpIVVDmgulkA+xA3+mo2dpnhe1UZhKPyJj1NP7t24lrJMYUzANMgWVqxeH/DQ13QEUC5GeNwQbRJVwAmFU7RkQYCYD8L6U8/7FOUsydHL4ngKhWmHalrl9Qqp0IFWB+w54it/uMvf70RcsNo1WXgDkzj9PXw4R8iapwLV7ImCoHKO4B9yddXa45Qd0/68gguUB4UDgiXtPQUnKkHESt0e01eN+llaghABFH2Eva5h5Ebx1OMwUfHhHBYnpL66yz2JYKX9aYOe4xS1CrtxJN1/P1KNhRSO2PqegAVwQiUm+g/TpCoIWuuBDDwIcRK2G+uXT3X99xmbxG0IDh0rk6dwPB8aoqnUtfU/HqaqLEHxaCsRFMmrZOmIoBYID9XC7hf++re/AJP4fRzDVvmueN9AujpiNoRGMG0fRYnRibKQV8iAFT1oRSoB3ioCuCdq3UEI3epMIneEPgQbwioV+srN84t9CmEno6oJ4I2nboKkQDY9f5aBaC5RVlLN0vWAJE3RjByxMmLT1UR/FDqzMO5Q2f3RAQ9ERxq/igEVAEUx/TcCMBhVS2ZcttFN6VZMgSzkJqJgx1HOqcE5w4trPXivF8R9IeATBHzlGjF1ZNp0wAAlIW4FcijvajCAwQiAwB7/URdiQyyPFonuPD5fhAQpTvXrtIvg+DoUWzhy1TUSsbb8xSMuJ7IRK0YQRg/N6EUTyIaTulErRHz1KhER5u/fqGPWf21c0fx9TtYZd8ItKueh9FOZCEYeQLPrqFYWKsKHTSNkwW1sjWhigMyOzBjrZoDBNaGEh1t+/6ruyM4f2jh1IEDp0+f7rjwox8E2mXPgV6U7sQUa0XIPnsezUg0ymDWfXdyWAZau9rDil5q7IiTEp+deEtTIgd1UPM+hxZav393h8qDpA5odAqAkCUszVB6ATjUQOikpiLfz/jBkvkMIiNuytKQVMp5jIC3axcMpKDadFKKVo0ST6Sxsra2fPX8+bPHgaU6koVdF8QvLzQQNJAcOL2wcLQvBHW5QySQPe8XrTiP89i1lCBqc3g+Cl52UF5vfdKDj6EMxSOtn3f4sJiVojGI2SZvwOHmVSiARJf8rrZ8/lA7ApXO9YVAv9AyjKojNl+9jKNwNEapC2v4y3I0HbzspRQTalzTJKaieov18LuF8sxfLgsIU2EqJUUzEVPAQXBcPY+/eXclOnS6M4L+ZKARJKRQurgGklgl3LTXJMj46z2/WKoyA1fCVMyIAOc+13URvEgweLJgPp9cmqkWE4VCAaCIpahiwrp3ddeQgNcO7QGCZQAgUabLzB2c4JuyIBCEheD7xUB6gLmjUClPU+3o0awA0tLNGbM6T2wmSNL52lJ5DpAgNJGKYBXZxRud3xMZYAAVN6V8xJBMCJSIV0g8U/CaAmYpSlUiyFjoKs91EbzraprxHlCRDIBQaksg1UO7eqPjfSNYONDm6bQ3zrupCHbzVCqZLmAdqdTLRILAXLsICbbV2JNOPdVc6eEXhWCHCUAyEVVDHqzkh3p2KJwL/SLAHzrdiX+IxHwUyXAZPp7PvwNf6hDqpWHofYwgjQKQLxmatbx9U00odCXqRMyMnycL5HomqMuHuiPQ+Fdds/aZNjEsgLPziYg0wz2FdA0bslespwKgV5iXvyhUBtmz9Q6jVxBOEB0CJcp3QxAsSkTJe/vT87shOIrfPHSo/mIrhDXKO4UqqoqHkTlJ8rpGW1b5C0GAPZRs54ikMJms09dOkKmpH6pd+AfJFULU2UO7GcKhXRCcUx82PnG6VQAKmp6W1DFXrIyKQK5/f/gyWTabxi0gxNICq2G1Fm6QCfMeIjDXIHZDsrNwuldY5hd6Izja9mITgmXKLaOpS9dxzgwUu8IkY1ibGlM0DrRUxkK4A69zLO7NEXv2WVmWTJ5vznUDMMCUUcBJrnmqhyEsvw4CbAFWhEt6tSigpDkVgUO3Wa9Ssi+R8cxD9ibi3hwLGQX+O1rAa5FeTKe7IjBXRffyKYKghyFcJax0BnAAkv5zbS8uGATgkJCIO+0nbgh4aoAqlZmkbPJ4PDGvKayE5AKqT9IzV6IUzZLlVEh2gBbRtPDu4RuFGtMNwEAwJ1PnCYIDPQzhvOroO1NHcAsGAdiR2lO59O40B4ULlVpizLU7lz+2fmK1Xr5yZ6WWrq8dAiF47PpyPNrkFViaLWy6kp0BvPf1l18OpAtR6rgm+O4IjhMEkJ2CxbTpUncEC+fWqICEnl7TnbqdxkJIrTADZEFEmixdbFqcxVRFVl+Sx6GMSNMTc0vznQC89y9fTk5Ofg3xTKF0nrqbsmoG+H94tHAawBxYqEPpKJ4FVYF4BT1/okVVgsAO1ltJ6us62pXbPG8xroqE/yc68f/NV1+qG8EgFUFhXrtod1N2qiPaQKDCwcUBKXU6IzjPQ+pmvaHlNZhuTNOsNUBVZrprNbiWOG2kibIGt/7jvW++GlbZH578Crsir3NXBMQVLdQRLNQRqC90QHBq4bwTFMh6/S08Y6y69Be/nhI52goVgCvdHYF5gLY1IVjC+VswmIZEDpQOVF/b+TiJ/70HrqjgUF1RL2e0rCtRHQGRAx7ozghOLYAChQT09PqzZ9dv3Hj33cPvPk2FPLwJsVxqygdc9RBC3qhHtH+OSee+//771J2Vv6SKw8Nkad3wzvDwow/v7XyJXVHWrSM40LXxdbWO4MAhI4JDOgL4dRo3AVRDP3UapBmhUUWeQoVi9XKh4PIXsgpeRRMWBIhVsS55Zic98heZfIznKd6UclAbW4/vbW//54fflr7dVNy+0v9Jm4NcSnemPdzpeV2J6kzXERzQ8gb1A6qIrpIZYMXtMQU82Y/zeBXWSrmIChfliDcQi5II3EMIzWucbTkmDdYfdVCZSFgKKWFPzAGAZsmahMj7TLogUWd1BF3d6flD+hBrxrvQAcHpc1ev4l04wL9HRqIjINorQsidTUA4JUvh8itVVKiQNbgK6iUEc7qxy4K2JZh/gXxPClAZnlLckDeFFAUQmaiYg/J8xMxDODh7YDcEx9tcjZEIsuOaG3DyOAJcQSY3yWxCIQ8qN5Z0B2vlAqpEKG9PIUCyZqlDsLEDXz504LXhIQcUSJDOxnCLphQO017K9BFTK8Sohhl2K3K6JEQGywUnYIpk8QIIdxQV56GAicbIn8YcUs4w3hABalXkF1lLsBcEZqlhzf7gV9sePHsW8gACH8VPQR0a4BBehAkIklBzNBB0C2m7IQAAXvvH6OmTJ88QKqwwTE2mtE6Q1+RDzVmZmUlX/Sy6kw+2r5RuQJirW/NE+ptHOJvi7WFA4MaVNqgTCIM3YQRLKGLgrxuC3QCMUR7bs2sIcrdndhteW1wrOWj1T92eAJpv4ZSp+mmvL/rO5ffnO69+xT+KujVP5Jn/UigPYu8rVARbBAw6n7VKOLUFOygjH//aCM5S4Y+nrz3B0xTIVsQFb/4dt75al3e8M6/tW9THnEnYOCkUdniUVO79YAsGMBb8eSapCyFeY/7vLOXZPrkVoiIRyk1bw5RDqQAWL+W9AwjCBgTdgnJvAMcpR/aJcOk6JKDXpiEA4eQGOUr69LrDhp0RM5CuLc0UcwkukavijRQCQpWQyRN5J6lCCKbVTYK1ahFHbPBHdQTmoEx5tycXo1REAYOYjQVMpvXnmYgUhQxrBnmcdVa6phW9dWiZr2xe465df4oRgAxwU+qKYqqXL1cGmIH5pSsQDyqpUqmUqkwJLCtaBdovIDFT0Qvg8szS0tJMwqL3JLRdF3Q8yQQrbs+PwzvrAUWUSps/bt/fvrc1/F+/mJ8HU5ozInhFGVDhH55e27zxBF1664TITpTn8/l82c+HtI5D6P2BZNFVCOFJYs02FBRzeKJCMRefEPxVvTRIFhMgH72WYWY0IcSXzAPlzYePIY+4f39xBx+lgPOKk9+of1dtJHaviuA0Fbr+7Mn1zWv2zUsnrk3TExagApIpdSFxwF8uuvw0VI/O5bHzhJxU2M3zbn85mC/nXMnGfnFI4Or+yZzUHOoEZLLm4Fcnh4cntYyU0Jfa5zCCU3VmuiHo6U1PU8qzJ5vXpq8/EaaeXVfLE0HxcDJxp96KnewDRJBAnjp1AP7Bz2XeuXCW8qEa1vsu0dk8rwVmf5VI5ethA/uA5mvtc0XkXWsgeLV4wJuevyXeeDK9SbN2rULEMSeFopFIlNZfaSSQOPU7cMpJOUq5INkp3jksBHMqAuLdgN77qgmD/qlikwy6IehWIavsLPO2J9fEp5uNXEYoUSBOU2YKCXrJiHjn2dNqR4HQWSokihO56sxKLY9T/3YY5qpfT+20V8gGOu2Mjq/qCIRAHwh650XHIUI+eSJaCbOcIAhWMQBiAwwxoQ6K9NiXzx5YOHt+edmJs+XL4Ftt2GZctlx1qYb3pzSh0E3ZljC++t43X3/11ZdfDutbV4I5IWDQom4zmmd78E+ccAYhMYK7JNZUNBpV3NTZs9imogJt8/snJib8NttUpb6jx+ExmUzKR/n8fHAgOF9bgTiRsLjoajLNGJIlZkmNaTa6Vx6LETT0s3t2faoXggOn8YZbnDNakbqswLnspPiw5I9bLIni3Ey5PFOlWVcB0SFTRMrayPRLAUY/7s/NYLYZHNCghqgWVxo5VN0Z2bp3u+DvEnYDgoVuCMZ6IzhwADRjzAnZqYNaPn78+Fmw0lgBFWbwnnysHGYmX2bmV3KugtVqTxSr5fLS0srKyhKZhLFMlGsD6oYUvJGpPuBmvdr0t+ZVzQg4A4KuNdrybghOER8JkgBp4Uw7A9VlrZEIgUYk8ekU81XLRNXcOGdAO/kknZ+vc9Rg1pzXtCjetelLENgaCE51rZN3RdCAga3CI6LqvFGlIZcj3QnAkLPklgitrNSCuu125FBHgBOjnggcDQRdexXOvhCoX7IMSTwHqUyT+aUTelo6MOOKT0zE4/iIAUu1y+YyFUHNpSdGPRGIDudx1U/3al73jeAUni4uphnzvPEy5lqjea65GBw8WL/Lho+h6YJAz6/jK50/QaY1BxKiu+5reiDYtcxsiDGCqpDyB5skz8ysMIYnWsrGPRh5IMYtc53LnAGmPCGqiZFeaGtTsdhz4RZYej5fSyZZGvy3R0vduvdNeweEBp2lTASAudbkAZmEwRjNoLqYMfYiXkR35qLfAkbTCUPx5k0SJHHJYcYHdeCZ1yQ+tgnKDIFMiANBpk5D1UbGuEfvepeAUCfK7c/hootZajaDuPGpVn6xD9S1pBjDXDsGyOzO3CQLlf1FHPbA8X5MmC74s5WSJEVDSiRs8ni8AYdJ7173mD/o0xktU1KBdJqDS037tZO5ZuZIzsY90JckAwbItFt6F8zMzaGLXInDYBOQrvsrshTFy0K82rKQBnk1BL3mcPi+ECxQYUQU3pxvch/MXLmJPXXbvqpFOoZCItnkVJla/MiQTYgSCDaojR2dW0G8O+D16Qh6TSj3Y8rwBbYc4YIpN4XRYKLZH4KCEEs+YziS6IEtXjVMFDA19szQGdYekzg1MTTuRnE7vB5POKLEJLmUFe2gWSZ1BqHXEqPzfSA4Dn5ItVhzNd3EsKUlL2CILRuFMDR086bftmLWuhoDS3bQsQecmJFVBNZIANJBn5KJyqmsyFqBa7zxn05JsVDE5KWWMQM9DLkvQ8Ai0IqRdNFoueDYW7JLRk39m4Rw5uYZW3yOlDzzK4k4vDVi41KZlF5gqAuLrCI2h1BIqbC0VeFVg+CdBEAvMwDB7Y7gND7dRB3DfLVJpavFgRYEZaxGNluTEMQzD7h4bmWpmvAXbuLFvhdZYTZTry8Uk8dwSpEDUnnE82Pnzx4nFqANYS/qWaZpI1DSRMAk5+oabR5ggolyq58h/pR98LFRCDcvnuFoyLzt3E3y8kWOnYrNakUqV+Ep59ryMm4WnD1+ngpZaSFDnSWZWJ2D3gs2d40Ip51ePOtLwubMkn7cXnp+fj5pWSIHXxmCGkHAPbh406hGHz9g6aEzZ1RUD2CQQQRZTYmsCrWglqc4gVzmsxyNHC0esmtx0JchQOGOl0uQVWS1Wq44l+Nclng8DsVMIc7FXS42V20kGuYakQFovlGNgNmP1eX6EMrAgAVZt2OaZR2GptAC5UO0EG0Z1VO7HLDG9/anp5yOKH35ExIzCwXBbxOnsrhDJ8sy6dKJNr8l2YrgIui+AcFFFkDdvHiR/fhjPPL2UkayazkgsFufp8H6DlECeVvyzVO7LdfsrUan1ryCEIM4D4He2zH4iIbVKeYaLr9Y29CDBwYEN0OVcGsAABNcSURBVDk82KyqNywtxUoYgD8Xh4Dmoca0Vgd2GSZE2+VWjnr60t3V6NRygEY9/16Ip1tkQLNnRoyG8ICrdzZothKVRPzcssIkc1yKDMoySTDBZYBsIMS1cLDretPeanRq2SHaKW80KkkRXmnaVe9Q1wKiiYEWS8bxwCiDMw0EYqkk2lkVwEB+Lu5HQiUa5qk1vHCa91hpLtU6pLsq0S5qBAhoEQKCNcqhSKpicgQ8YW8oE5M8EQhFJRPlRqwhZ1DPM4Lc7ozhBNAjDRGILEFjc60wtaJlIlcs5rgC2SJ+HsY6KtDI15ro7OKJMPUuNXkTqlBhq91rtfoqdAybdESsWJFJRlEaxagAyhkQLE1oCEYMCEYusnQT2SZq6aKrig9DBSeXrLpQ1kMtO71WlsvyrSLoZx9Lr87dcSqESiAD1oc4H2RanpAA/hrijsda8WBv7kXFtjKNNVqB6oyMNJHIJy3FvLm+jKSWi1sjpI8GyWgrN30A6GXLIFpZkLGPkO1iGAkOqgJPeas1Rjm8MQHMzouqBgRqXtSc2rUgsFmq6RmXnusdw8QEZ1xICVhpVnSvtTDT1x6QHraMDVmQAAGLUNSEpnifFXkg9HMOSqGnWOSgPMiwoIXJ2XZDEGeTwepEXj0g7dgfP//NF1/86rNjzJLFDuHYGjKEB5WB/g6z72HLTo8Vog4gUBQ+jEp8xSpRPIIruUUhLHBuQFA2HBSmLV+5ONIZgW3CVU6bq361YDj2xy+0jOeLPx4ruyDucQFny/X72wtFtf5Zg05DaUAQ4DlYH4qCU4LRt9q8vAPRIZTlqcbUPlBQm2m1dUTgt/jLacY8F1erimOfGzK2z49VJ9oTiv7suKcQjoN5CTE8WQ2fiqBQDNElbwYXT+4sHY368CL2xjoE87w+09qEAHyRfyLuis/VgpDRrrjUGbVjv2pi4VfHEjbB625R4n73BHYVAjZkO0GA18AqKBIOgTY5vIaE3riSQgvJYAhHWhAUy8l5PKdjZvIW9fPM71t4+PwPLtHRwkjfIugqhFNjfLYohChvBC9c4TsdxxMwItC7ceyZJi16p1yfkgomiuqDY/XvcnzxG6BPqc9mCrEWRvoWAZRqXWSwHPDPfUJWhTs8YV9ECUF2UapUstkKJKi4LFSUQgOBFtBaykxAUP8IU3ZpRqDp0Bd/Yo6pxPw+7bd6+ebL94+gmxCcoCScHE3FSS1rvXIHzxAsLZXLVc5fnKteuXz5E5sBgTZD1oZAX1Zqntd0aOAYSXPBBzXcgJkpF5pNuU9HpFHHmHAaPGgtUZxJ1vLzybjNH6zPECTjlpo2V1BnQQ8H7Qj0GshcTKi9AfMfsVh/f6y5WZNmrU3u9OVubNIxMGNnOh9U5zTyFtqPR3+llh4gCNp75+ZERwQj72gVhDlv0aTB/AkEYG5dicTMFDKNkLZ7Wt1CnUr+BSpUINk/PsIduJsAilssxaV03hJvW81lDtJdZKAhYIr69CWYwXfH2kdgPi42pqdPv+w5y51SVBwOSMO3lrAYFova4vGqzd+2PNY8ry8dYltkoDXG8ha9WX/su++OtfJPtKyRXb+UGavUwZgBwSdB3ESxNC12xfGV9hdbpwfM+YmeCMDQ9XLO/MdOAPCZzPUi8+XMWKU2Yz51lsKL6cx5V0uCr4Iot8yT1QMaTTdHtHfUXmXaMmNoN3USgTlNI4emDK9yf6J2PVIRMEV/BwCQZs40M2I4cbYVATk8faX7jhUV1LyZqWqr63ZrsXShVj3CtXcuaE77W3VIh1BuRlBf09uc2ekIEnT3ZZDgl2q5FYZZKUiYjf4TohZq8UegRXLOHEx2FgFQ8w4IZkb/YD27Vn8TBBDNWpuUBv7TSwnLHHEGVlJnvup5782J1anjTkpKFOkJmx9PsVos8XiLNGxxYze+HpLpi2ceaKX+g7oMzCuWzvPHZiaYLE5Y6CTJnXJQ9516BT+kkzGuYVWMCcC9i4ag/Aeg2socbTEeMI4dkgGBbi8cd/PMGQ0CFgdBwORcHQCQJYR+iyWXhId5qJ1nCgrVX2nZheqmcGrBTZlEq9+VSB47Zv7s8+++++5Xf/rjsWMQ2iwGrbIY9IjR1gCyxmbRiG1o6CZGELQU2wIIKH/VZbHYlvCxy/mqKw1VPzaE1wBA6UEdh/Qogqr8D8f+9IWh2fjpd3+ESxlWT9OGGlNb2t5sx2dogsBcc7VMgDPm2pzFZUkQ9oMrtMUG1TMYAvta/OM9dpoGeaes8dwfPvtN07vuTz/94ldBJl+s61JjQWC9zhebUoqhBxcxAqjl800A0mWLi54ja3iCyarF4l9SVxMmWs/AemlyniYRPYzs8fJnXxje+PRXn5FcHq+cNa9M6CVxohGltNS0pVMxdBMXxkzR0rIKOJ0mOSNm3wV2AE/SM2kcEfo/Fb0LrWEAPuSna8HPP//T5999Sl79zWfHDLn8ADOf01IISz1MmfVey5mbq4Jgv3hTt4d3cDpEt0UDvPGrNueyxHNYkQbyM3hRLVkx/rq0jE/OsOXmg/P4OP9jx0CTPv2sNZNkglU1fk3UZ6b08oDjpFgmKovWjwV13ukMF4S0s9qCALNvcdmKK9gO0itFyHYHyH5SZXcWdyWvwNqqRYgBrjhk0syx3zMdYpEGwVaf0NR9kVVdd+dWaIlFuAF5JhdkapaWbNycr+aqZbxtkMGtUws7Q7pI5vlCbA8QSAKekdSCFr0y0DGWmgdUCPWFTlpEIwdWUHw4FFF8DkW0nRm6OcOYk5bWHYzqehbM/oTLUlxJa9Ve0C7txt7u5G0sxqTVRmdnCEESwvy6ejBz+KlAGHDwFB8RwTEGsvabYAdQ4rendWbMvt/lKi7hdXv6a7nOB3++FPlQc/rj93feAQrJsA1vqNHUCK+Rwv1zgiCm4FNmQJ8iEBVx0mlpW9mYrlUhmQCHOtAotiEwCNnXR6BYmxGAGDrvwmVqOC7oamROxtksS45PDjuoWMVB4VNIA6i6MkCcaetf18pLyfmg2dArAP4TKLUHd8AxtcgAG0XntaFkwmBCK1zM+Tjy8OEsivLuUgAKVLckg0HbsZZ1yorMrdtnB5K5eP2o2dcit9hWk/lbfaFGQdZWX34MhQRWGz6EJCo8xfOiiIMTX7Kncazw99ojhfk3A/+F7GuHM5WUdiF0WZjIJEGP9IWj5oTqyyMQlKYUKqRum4oVQMvMiURPBGamlovbuMrrZhR1koU2CHQXPUrY6kv+wJ2qfiRToaJihNZPjYK3zYlcDwSEf3BkXGnP7h3OV9ogNGJv88WTcdqWqz9W557dgieUimmx1S1WMdDuCBimllBvC7SHCChKsrdC6LKpnpmw6d7IPD+hrdny2Kwmw1eBv8wVO4qQ6H9Cv60RtwehoE6BdlPorEe4Ye3X5MPkCh0CaqwA8aDYVt+o6gOFQeO2THsRjnVy2NtbRP5i6y45QmkXBDUVHLMS75Abh8CUmWqivUdkNqfLNlJpaBcTupwk/ipUaVMiur1BpAkhV7dlc9rCsrFwy53lFJQcWGL9xXST9zfjCtml7ipip7SNSnuR1KkUbY3KOoQOUjCvxOsaBt5IlBASpZh6sBgmd6hQxetY/BMr+qJ4M76RYFm9qxorsLSgqI7D+vqlgUbhNiPQIRTb7+tJznGYmNGbu5wjEImmaHXpMVm4iKxqk8YWT0A2nQ4G0/mVuYQ6/HYkZrIs8qoj9vrlmUZukeuCgPbHy+2Jqp8kR+oEX7WgTlp5PT4lFIsCZSKK7pptE5aJRCIxYVEbT5yA8PH1WbtIkSFj6Zc5VrYXRduCgVEM9FKzQqvbs2w0aVCb513tbDRlKTat8GAFlM3gMffaIYQTBHa5AzOvQh6h1Q81mTXUPDP5AWNGSSYA1aXlA0y5ILfOeToqrV8Ioy9GTWoKAZkw5SAIhC63ZXhpklpFINSFYleXB03Ei+XGVnAmSTZ1+HNEv4IJu70iR0OKLwwUUUJSKdvmmVMZU/2UdBHSQdXwrHtkBt5WEUC6llWlgCRZc90AIlGtqeWnOa9uS/En8uTgNBeLbzZp1SwZnzzewj87ZRCSjM8XIFv0yPk7e0GxFhFwFT1CoxDlgetrZm7zx3PqGpWgS9evJTPTdJpAF4JR105bc8j4UF2eDNqeNCnwd7YWByTViSC8MZbiaZ8PyXVPZdPK9/rdDuOJJFQt1eYzZkD5rKjpS1nW7Yi48Y2UEGE7hJ0pK+6RJ8IqKRqvruYqUTuXVXxQdEmywxAt1H5XotFHjdMr6aZJH5bcgc/UrEr2Ck9FJDuqkNtDeVQr2Cs7BqtljaanRZmKnU2xSOTDKEBVGuHCRrZz5ZomOl3FsmYtLFiDGFKPR2wOknZ7w2pNZO8qJ+5RdePOcuyUQQaajw4hMYDPTOZx2RIx5Byk85trmRiZsNlYTrAKtNQ4eL6laGL1G094o6qGdblH0suTF9FsyoBA7WLyiAZWovhkwIAudZ1bMz48oLGml+XAEyErm41Gmpyjm20J9HZkTYFvQyoyYc8Sax+iOdkwVGqtGyG3UZni3SIWiVEGU3huP2fLimQHs2CnxWxFzvhM7VbpQW1elat7Wnt2z6qzDAyJzNYtQbNjGZ+zoUjABTY3Q9bBihGUZ3IVvPHH4yF7sLqyEm6DUCeOft07DDcoKrBZmeP0TSZaoCcn7kUhHBDnZzRKRMWs+USlrxEMW7tkjHZ2D++/LdvZCjh83edrdS9hPBoDBNGWlh7ygm1Y+6xvTWLHnNGa3TsJUHyKY1MyJ9YRqN+NcPEUlSg+K4QUNcNgGxBN0R73fWyigIzaxMCh6J51iTACcKYpiZuSOFoUsa2pFpnFlqyAx1asgjqMbFYrSna/H1sTRcRmDBzKvuQ37I6AK0mcKHFsFqxZj/Qhqz0alcmNDepjr5BAZH1ZN+7GN0ZS+wisHd9kaA9bRARBBaxYosUoy1ZSDQReBFfDd+ep+yG7l/IJr4IA3x4pJLM4cRXlkGeP+cd9WtCiKM1FpzhwSY26T60ZgF2PigBPE5Di9hUQkOu4HQ5+z7knJIEvik7ZpRSxBdqqZ8GqI7SGAinyAHd2SGh+WTv46QnHg2jFLkt2MQqGUO8eeBB2QawgsLg9QhgnUz2oXzf0NyNw9qIk21NRjpVkfFqj/kYghQQO8jU0FYLsFZ+mjMO37m73EZkgL5IkFgTAyVJzJ9MUnaKnomF8xC3J5UlzuPdGqTdBDhhnOSraQQ6VaAoyzvZoEwVf6NaKOVbs8B1vmHBaAYaQmuVoCWy5fY0Ab2XJi6S/sJe92r0iXLNiCwA1KkVFlmu7KSKEZaJaJDLsXadz7wi8PKgR1GaAQqqwbbWTVxBIJhpQ+wv7zpCBIKZNRSvcFITlbInD+5MoQ+zBZ6QT0yAi4PZg9nrvKYLAA0l2DgRACh2s6vrtRXkfi6IEjlqeW/eoxbO35J7CQpjipkhWQZNGFx+KmTxej1JB2g3UHVMkNKO9ajbvLUFQAyuwsyW94Mf1jScmV7KyfsNEd0mg96knwoS3mtPghuh62wjFsOY0rMGR0uZc9qMdYwJPz1aapmOtWWP6E+HU9/asy7b3BH6Ga+6Zc9aSdttBrzKlng9Hc3vXIdlz4kUOIDQ34uxWQUyVKrSgNxzY/ZeWGghqsubuqcozxxkauHvVLP+JyNS9O6UD2L9GoFKPBpuqQvsdAEhB6DStXzfs/a1CKgVS1i5iYK1T+9mIDRTi2uZlaVIrZ/avG22hQJRtbdZyVi66h23an54CSkpAeEIVCM9sCKX2O2Tvd+K9kahcmRLFqZQU8/2sht9IvBtoPyq/6edOFPq5EzX4c6f/j+DN038fBKPa/yqNNx5Njw+ON94wvLNfSEMwOgs/1tdV/kbX13WeRzO+2fFM4+l6Znx0dXZ29W/NZg/SEIzH5NHxzOrGxvjg6vqGNDs4Cg9XB1eVyLpPDs8OjuN34IdsQvBjduPNMt1EuhbB4I6HZjMZaTUUm5Ujq5lMZlZWSpHIBkJhz7pi8mSQzxOWw+ve9Y31n4QVTdCro53eXCUfWN2AUR0cXR00qLyOYFoZlNaV8cHM7Pr0tAQ0jRRpfXowEjBthNc3PAg51k0IlRzejb01hVFZltdXQb6D6+PA/CowsDq6Ojq6GppexXDwa/Bjdjomzc5uZKRZZTU0Oz07Oxsbb0YwPrueGTTBGyH4UkmKrY9OA4LRcYQyPp8shRHyzkbQeMnhWe84Rq9OGyDzUGZ2dj0sz84qcmY9MxuLyZnZSGx1FF6ejWZmFWV8dmM2uj6LlHUUkn3wJLY+O9qMYHBDCSFlFA3Ks2h8HcBODwKCcWl9Q1GU0Kp3XQ4MBtbXZZPs2VsAg9OhjAT/NlaV0IYSmV5XlHVlIxQZjCirG5lVGNgMgpfWZyOZjdmNdSUjwysZ+GysFcG0sj6+EVJmx2eVzGBsQ4bPgG+KhU3K4GoYOA9vjEsm37qC4CN7CwE8HwwUjOvq7IYM8t+Q12cH12flDTA4eBXeluXZ8fHVdfxsA4QlzU7jJ4MtCAanR7H3Hx0cxRGA/CQvoGn81ug0fgdNj04PTu95SIBvHh2s/8P/af8bnwxq74+PkmejdVP+7xOTf770/xG8efr5I/h/nyEjfP3QIw8AAAAASUVORK5CYII=" />
+
+                                </div>
+                    </div>
+                            
+                    </div> 
+
+                    <div class="col-md-12 jt_col column_container">
+
+                        <nav class="primary">
+                            <ul>
+                                <li><a href="https://www.ubereats.com/en-US/dallas/food-delivery/minchellos-pizzeria/DStpROykS3Gl5SECTFNczQ/" data-filter="*" class="selected"><span>Uber</span></a></li>
+                                <li><a href="#" data-filter=".pizza"><span>GrubHub</span></a></li>
+                                <li><a href="#" data-filter=".pasta"><span>DoorDash</span></a></li>
+                                <li><a href="#" data-filter=".dessert"><span>EZcater</span></a></li>
+                            </ul>
+                        </nav>
+
+                        
+
+
+
+
+        <!-- BEGIN RESERVATIONS SECTION -->
+        <section id="reservations" class="section reservations">
+            <div class="container">
+                    <div class="jt_row jt_row-fluid row">
+                        <div class="col-md-12 jt_col column_container">
+                            <h2 class="section-title">Catering</h2>
+                        </div> 
+                        <div class="col-md-6 col-md-offset-3 jt_col column_container">    
+                            <div class="section-subtitle">
+                                Catering has never been so easy!
+                            </div>
+                        </div>
+                        <div class="col-md-12 jt_col column_container">
+                        <div class="reservations_logo"></div>
+                        <div class="voffset40"></div>
+
+                            <h4><span class="above">Welcome to Minchellos</span></h4>
+                            <h3>Make a Catering Order</h3>
+                            <h4><span>Open Hours</span></h4>
+                            <div class="voffset60"></div>
+                            <p><strong>Sunday to Tuesday</strong> 09.00 - 24:00 <strong>Friday and Sunday</strong> 08:00 - 03.00</p>
+                            <h3 class="reservation-phone">+1</h3>
+                        </div> 
+
+                        <form action="reservations.php" method="post" id="reservationform" class="contact-form">
+                            <div class="col-md-5 col-md-offset-1 jt_col column_container">    
+                                <p>Make a catering order</p>
+                                <input type="text" id="date" name="date" placeholder="Date" class="text date required" >
+                                <input type="text" id="time" name="time" placeholder="Time" class="text time required" >
+                                <input type="text" id="party" name="party" placeholder="Party" class="text party required" >
+                            </div>
+
+                            <div class="col-md-5 jt_col column_container">    
+                                <p>Contact Details</p>
+                                <input type="text" id="reservation_name" name="reservation_name" placeholder="Name" class="text reservation_name required" >
+                                <input type="email" id="reservation_email" name="reservation_email" class="tex email required" placeholder="Email" >
+                                <input type="text" id="reservation_phone" name="reservation_phone" placeholder="Phone" class="text reservation_phone required">
+                            </div>
+
+                            <div class="col-md-10 col-md-offset-1 jt_col column_container">    
+                                <textarea id="reservation_message" name="reservation_message" class="text area required" placeholder="Message" rows="6"></textarea>
+                            </div>
+                            <div class="col-md-4 col-md-offset-4 jt_col column_container">    
+                            <div class="formSent"><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</div> 
+                                <input type="submit" class="button center" value="Submit Now" >
+                            </div>
+
+
+                            
+                        </form>
+                        <div class="col-md-12 jt_col column_container">
+                        <div class="voffset60"></div>
+                            <div class="ornament"></div>
                         </div>
                     </div>
-                  </div>
-									<!-- center column - navigation menu -->
-									<div class="fxb-col fxb fxb-center-x fxb-center-y fxb-basis-auto site-header-col-center site-header-main-center">
-										<ul class="ph__mainMenu clearfix">
-											<li><a class="ph__menu-link" href="index.html#about"><span>About us</span></a></li>
-											<li><a class="ph__menu-link" href="index.html#menu"><span>Our menu</span></a></li>
-											<li><a class="ph__menu-link" href="index.html#offer"><span>Delivery</span></a></li>
-											
-											
-									 </ul><!--/.ph__mainMenu-->
-									</div>
-									<!-- right column - navigation menu -->
-                  <div class="flex-col flex flex-end-x flex-center-y flex-basis-auto flex-sm-half site-header-col-right site-header-main-right">
-                      <div class="main-menu-wrapper">
-                        <div class="sh-component menu-wrapper">
-                           <div class="ph__menuWrapper">
-                             <div class="ph__mainMenu-trigger">
-                               <a href="#" class="ph__menuBurger">
-                                 <span></span>
-                                 <span></span>
-                                 <span></span>
-                               </a>
-                             </div><!--/.ph__mainMenu-trigger-->
-                            </div><!--/.ph__menuWrapper-->
-                        </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-    </header>
-    <div class="ph-subheader" id="home">
-        <div class="custom_width custom-height-container container flex">
-          <div class="flex-center home-slide-content">
-                <div class="title-block">
-                  <h1 class="home-heading">Minchello's Pizzaria
-                  </h1>
-                 
-                </div>
-                <a href="index.html#menu" class="btn btn--black btn--30 btn-scroll">
-                  See our menu </a>
-          </div>
-        </div>
-      </div><!--end subheader-->
-      <!--start about section-->
-			<section id="about" class="bg-color--white">
-        <div class="row no-gutters">
-					<div class="col-12 col-sm-6 align-self-center">
-							<div class="about-col__wrapper">
-								<div class="cont-width-94">
-									<!-- <div class="title-block">
-										<h2 class="title-block__title--about">About
-										</h2>
-										<p class="title-block__subtitle--about ">Our authentic New York Pizzas offer you perfect cooking, best served dishes with fresh ingredients and old recipes. We have only carefully sourced and seasonal ingredients in our disposal to make rustic dishes. We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and many more.</p>
-									</div> -->
-								</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 align-self-center">
-						<div class="col-wrapper-img">
-						</div>
-					</div>
-				</div>
-  	  </section>
-			<!--start first paralax-->
-			<div class="specialities paraxify "style="background-image: url(images/section2.jpg);" data-speed="1">
-
-			<div class="custom_width container flex paral-wrapper">
-					<div class="paral_container">
-									<div class="title-block txt-center">
-										<h2 class="title-block__title title-block__title--specialty txt-light"> SPECIALITY PIZZA
-										</h2>
-									</div>
-									<div class="btn-wrapper txt-center">
-										
-									</div>
-						</div>
-				</div>
-			</div>
-			<section id="menu" class="menu-section bg-color--grey pgt-115 pgb-115 ">
-				<div class="custom_width container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="title-block txt-center">
-								<h3 class="title-block__title--menu">menu
-								</h3>
-							</div>
-							<div class="spacer-65">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="col-wrapper">
-								<div class="title-block txt-center">
-									<h3 class="title-block__subtitle--menu">Pizza by the slice
-									</h3>
-								</div>
-								<ul class="price-list">
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Cheese</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$3.25</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Topping</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$3.50</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Toppings</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$3.75</div>
-										</div>
-									</li>
-									<div class="title-block txt-center">
-										<h3 class="title-block__subtitle--menu"> Whole Pizza 18" Big
-										</h3>
-									</div>
-
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Cheese</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$17.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Topping</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$20.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Toppings</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$24.00</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-
-						
-						
-						<!--second column-->
-						<div class="col-md-4 col-sm-4">
-							<div class="col-wrapper">
-								<div class="title-block txt-center">
-									<h3 class="title-block__subtitle--menu">Toppings
-									</h3>
-								</div>
-								<ul class="price-list">
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Pepperoni</h4>
-										
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Sausage</h4>
-										
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Meatball</h4>
-											
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Canadian Bacon</h4>
-											</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Bacon</h4>
-									
-										</div>
-									</li>
-								<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Alfredo</h4>
-									
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Onions</h4>
-									
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Mushrooms</h4>
-									
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Pineapple</h4>
-									
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Jalanpenos</h4>
-									
-										</div>
-									</li>
-									
-								</ul>
-							</div>
-						</div>
-						<!--third column-->
-						<div class="col-md-4 col-sm-4">
-							<div class="col-wrapper">
-								<div class="title-block txt-center">
-									<h3 class="title-block__subtitle--menu">Pasta
-									</h3>
-								</div>
-								<ul class="price-list">
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Spaghetti w/Meatballs</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$8.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Baked Ziti</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$7.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Fettuccini Alfredo</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$8.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Mest Lasagna</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$8.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Add A Salad And A Drink Combo</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$7.00</div>
-										</div>
-									</li>
-						
-								</ul>
-							</div>
-						</div>
-
-<div class="col-md-4 col-sm-4">
-	<div class="col-wrapper">
-		<div class="title-block txt-center">
-			<h3 class="title-block__subtitle--menu">Combos
-			</h3>
-		</div>
-		<ul class="price-list">
-			<li class="price-list__item">
-				<div class="price-item">
-					<h4 class="price-item__heading">2 Slices & Drink</h4>
-					<div class="price-item__separator"></div>
-					<div class="price-item__price">$7.50</div>
-				</div>
-			</li>
-			<li class="price-list__item">
-				<div class="price-item">
-					<h4 class="price-item__heading">1 Slice, Salad & Drink</h4>
-					<div class="price-item__separator"></div>
-					<div class="price-item__price">$7.00</div>
-				</div>
-			</li>
-			<li class="price-list__item">
-				<div class="price-item">
-					<h4 class="price-item__heading">1 Slice, Cannoli & Drink</h4>
-					<div class="price-item__separator"></div>
-					<div class="price-item__price">$8.50</div>
-				</div>
-			</li>
-			
-		</ul>
-	</div>
-</div>
+            </div>
+        </section>
+        <!-- END RESERVATIONS SECTION-->
 
 
 
-						<div class="col-md-4 col-sm-4">
-							<div class="col-wrapper">
-								<div class="title-block txt-center">
-									<h3 class="title-block__subtitle--menu">Rolls
-									</h3>
-								</div>
-								<ul class="price-list">
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Stromboli (Pepperoni, Sausage, Bacon, Onion, Mozzarella)</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$7.50</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Pepperoni Roll(Pepperoni, Mozzarella)</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$6.00</div>
-										</div>
-									</li>
-									<li class="price-list__item">
-										<div class="price-item">
-											<h4 class="price-item__heading">Calzone(Mozzarella,Ricotta)</h4>
-											<div class="price-item__separator"></div>
-											<div class="price-item__price">$6.50</div>
-										</div>
-									</li>
-									
-								</ul>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
-			</section>
-			<section id="offer" class="section-delivery bg-color--white">
-				<div class="container-fluid container--delivery">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="spacer-160">
-							</div>
-						</div>
-						<div class="col-12 col-sm-6" style="z-index:6;">
-							<div class="col-wrapper txt-center">
-								<div class="img-wrapper-margin">
-									<img src="images/delivery.jpg" class="img-fluid image-box-img" alt title="about-chefs">
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-sm-6">
-							<div class="row">
-								<div class="col-sm-6 col-md-8 offset-sm-4">
-									<div class="title-block">
-										<h2 class="title-block__title--delivery">Delivery
-										</h2>
-										<p class="title-block__subtitle--about ">You call we deliver! Everything is made to order! </p>
-									</div>
-									<a href="index.html#reservation" class="btn btn--line btn--35 btn--section btn-scroll">Uber eats </a>
-									<a href="https://www.grubhub.com/restaurant/minchellos-pizzeria-2401-s-stemmons-fwy-ste-2332-lewisville/759544" class="btn btn--line btn--35 btn--section btn-scroll">Grub Hub </a>
-									<a href="https://www.doordash.com/store/minchello-s-pizzeria-lewisville-215917/" class="btn btn--line btn--35 btn--section btn-scroll">
-										DoorDash </a>
-									<a href="https://www.ezcater.com/catering/minchellos-pizzeria-lewisville" class="btn btn--line btn--35 btn--section btn-scroll">Easy Cater </a>
 
-									<div class="spacer-100">
-								
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-12">
-							<div class="spacer-160">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--start second paralax-->
-			<div class="delivery paraxify " style="background-image: url(images/bestservice.jpg);" data-boost="1">
-				<div class="custom_width container flex paral-wrapper">
-					<div class="paral_container">
-									<div class="title-block txt-center">
-										<h2 class="title-block__title txt-light">BEst Pizza and PastA
-										</h2>
-										<p class="title-block__subtitle txt-light">Our 5 Yelp stars ensure that your experience regarding our pizza will be one that you will not forget.</p>
-									</div>
-									<div class="txt-center mgb-60">
-										<img src="imgages/yelp.jpg" class="img-fluid image-box-img" alt title="about-chefs">
-									</div>
-						</div>
-				</div>
-			</div>
-			<section class="pgt-115 pgb-80">
-				<div class="container custom_width">
-					
-					<h1>
-						<a href="https://www.ezcater.com/catering/minchellos-pizzeria-lewisville">We cater</a>
-					</h1>
-
-					
-<img src="images/Pizzaphotos011.JPG" alt="Girl in a jacket" width="1000" height="600">
-
-
-				</div>
-			</section>
-<!--start thidr paralax-->
-			<div class="tasty paraxify" style="background-image: url(images/tasty-deserts.jpg);">
-					<div class="custom_width container flex paral-wrapper">
-						<div class="paral_container paral_container">
-									<div class="title-block txt-center">
-										<h2 class="title-block__title txt-light">Tasty Cannoli
-										</h2>
-										
-									</div>
-
-						</div>
-				</div>
-			</div>
-			<section id="reservation" class="pgt-115 pgb-80">
-				<div class="container custom_width">
-					<div class="row">
-					<div class="col-md-4">
-						<div class="col-wrapper">
-							<div class="title-block">
-								<h2 class="title-block__title--reservation"> Corporate Catering
-								</h2>
-								<p > Need some pies and pastas for the next meeting? We can cater for you !
-								</p>
-							</div>
-							<a href="https://www.ezcater.com/catering/minchellos-pizzeria-lewisville" class="btn btn--line btn--50 btn--section"> Catering</a>
-						</div>
-					</div>
-					<!--opening hours col-->
-					<div class="col-md-4">
-						<div class="col-wrapper">
-							<div class="title-block">
-								<h2 class="title-block__title--reservation">Hours
-								</h2>
-								<p class="title-block__subtitle--reservation">Monday - Saturday
-									<br>
-									<span style="font-family:'Open Sans',sans-serif; font-size:14px;font-weight:400;"> 10am - 9pm</span>
-								</p>
-								<p class="title-block__subtitle--reservation">Sunday
-									<br>
-									<span style="font-family:'Open Sans',sans-serif; font-size:14px;font-weight:400;"> 12pm - 6pm</span>
-
-								</p>
+        
 
 
 
-							</div>
-						</div>
-					</div>
-					<!--end opening hours-->
-					<div class="col-md-4">
-						<div class="col-wrapper">
-							<div class="title-block">
-								<h2 class="title-block__title--reservation">Order now!
-								</h2>
-								<p >We're an Italian Pizzeria, that's all about pizza. We're serving up some of the best slices and pasta in town!
-</p>
-							</div>
-							<div class="ph-iconbox--phone clearfix">
-								<div class="ph-iconbox--phone__icon-wrapper clearfix">
-									<a href="tel:100045" class="tel"><i class="fas fa-phone"></i></a>
-								</div>
-								<div class="ph-iconbox--phone__content-wrapper">
-										<div class="ph-iconbox--phone__title-wrapper">
-											<h3 class="ph-iconbox--phone__title">
-CALL (972) 459-5565
-											</h3>
-										</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>
-				</div>
-			</section>
-			<div id="location">
-				<iframe src="https://snazzymaps.com/embed/77673"></iframe>
-			
-				<!-- <iframe src="https://snazzymaps.com/embed/77670" width="100%" height="600px" style="border:none;"></iframe> -->
-				<!-- <iframe src="https://snazzymaps.com/embed/77671" width="100%" height="600px" style="border:none;"></iframe> -->
-			</div>
-      <!-- Start footer -->
-      <footer id="subscribe" class="pgb-60 pgt-180  bg-color--dark">
-				<div class="container custom_width">
-					<div class="row">
-						  <div class="col-12">
-							  <div class="newsletter-wrapper">
-								  <div class="title-block txt-center">
-									  <h1 class="title-block__title title-block__title--delivery txt-light">discount coupon</h1>
-									  <h2 class="title-block__subtitle txt-light">Enter your email address for a 15% off voucher next time you come visit us.</h2>
-								  </div>
-							   </div>
-							</div>
-							<div class="col-12">
-								<div class="newsletter">
-									<form class="newsletter-form">
-										<input type="text" name="nwl_email" class="nwl-input" value placeholder="Your email address" required="required">
-										<button type="submit" name="submit" class="nwl-buton btn--round btn--color "> SUBSCRIBE</button>
-									</form>
-									<div class="newsletter-form__result"></div>
-								</div>
-							</div>
-							<div class="col-12">
-								<div class="footer-wrapper">
-									<ul class="footer-social">
-										<li class="footer-social__item"><a href="https://www.instagram.com/minchellos/"><i class="fab fa-instagram"></i></a></li>
-									
-									</ul>
-									<ul class="footer-nav">
-										<li class="footer-nav__item"><a class="footer-navlink" href="https://hexodigital.com/">© 2018 Copyright: Hexodigital.com</a></li>
-										
-									</ul>
-								</div>
-						</div>
-					</div>
-				</div>
-      </footer>
+
+        
 
 
-  <!-- load scripts -->
-  <script src="js/plugins/jquery-3.3.1.min.js"></script>
-  <script src="js/plugins/bootstrap.min.js"></script>
-  <script src="addons/jquery.smooth-scroll.min.js"></script>
-	<!--popup script-->
-	<script src="addons/Magnific-Popup/jquery.magnific-popup.js"></script>
-	<!--parallax script-->
-	<script  src="addons/Paraxify/paraxify.min.js"></script>
-	<script  src="addons/modernizr-custom.js"></script>
 
-	<script>
-	  FontAwesomeConfig = { searchPseudoElements: true };
-	</script>
-	<script defer src="fonts/font-awesome/js/fontawesome-all.js"></script>
-  <!-- Main template script -->
-  <script src="js/script.js"></script>
+
+
+        <!-- BEGIN MAP SECTION -->
+        <section id="maps">
+            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <div class="map-content">
+                <div class="wpgmappity_container inner-map" id="wpgmappitymap"></div>
+            </div>
+        </section>
+        <!-- END MAP SECTION -->
+
+
+    
+
+        <!-- BEGIN FOOTER -->
+        <footer id="footer" class="section" role="contentinfo">
+            <div class="container">
+                <ul class="social">
+                    <li><a href="#" class="icon tw"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="icon fb"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="icon in"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#" class="icon go"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+    <a href="#0" class="cd-top">Top</a>
+    <!-- BEGIN Scripts-->
+
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/pathLoader.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.inview.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.swipebox.js"></script>
+
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+        $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+    </script>
+
+
+<!-- END Scripts -->
 </body>
 </html>

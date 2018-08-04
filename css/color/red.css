@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* Color red CSS */
+
+.red .logo_elixir {background:url("../../images/color/logo_elixir_red.png");}
+.red #header .menu-item a:hover, .red #header .menu-item.current a {color: #D30017;}
+.red #header .menu-item.current .submenu a {color: #fff;}
+.red #header .menu-item .submenu a:hover {color: #D30017;}
+
+.red h2.section-title:before, .red h2.section-title:after {color: #D30017;}
+
+
+.red .slide-sep {background: url("../../images/color/slide-separator_red.png"); width: 115px;}
+.red h2.section-title:before, .red h2.section-title:after {content: url("../../images/color/header_decorator_red.png");}
+
+.red section.timetable .column-divider{background-image: url("../../images/color/column-divider_red.png");}
+.red section.reservations h4 span:before,
+.red section.reservations h4 span:after {
+  border-bottom: 1px solid #D30017;
+}
+/* HOME SLIDER red LOGO */
+.red .logointro {background:url("../../images/color/logo_intro_red.png");}
+
+@media only screen and (max-width : 568px) {
+	.red .logointro {
+		width: 160px;
+		height: 137px;
+		background-size: cover;
+		margin-top: 160px;
+		margin-bottom: 10px;
+
+}
+.red h2.section-title:before, .red h2.section-title:after, .red .section.dark h2.section-title:before, .red .section.dark h2.section-title:after {
+		content: none;
+	}
+}
+
+/* ABOUT red COLOR */
+.red h2.heading{color: #D30017;}
+.red p.text strong {color: #D30017;}
+
+/* OPENING HOURS red COLOR */
+.red section.timetable .section-subtitle {color: #D30017;}
+.red section.timetable .section-subtitle.hours {color: #ffffff;}
+.red .timetable-decorator { background:url("../../images/color/timetable-decorator_red.png");}
+.red .timetable-decorator2 { background:url("../../images/color/timetable-decorator2_red.png");}
+
+/* MENU red COLOR */
+.red section.menu h3 {color: #D92941;}
+.red section.menu span {color: #C02530;}
+.red a.button.menu, .red .button.menu {
+	border: 2px solid #D30017;
+	color: #D30017;
+}
+.red a.button.menu:hover, .button.menu:hover {color: #ffffff; background: #D30017;}
+
+.red section.menu .title {color: #C02530;}
+.red section.menu .subtitle {color: #87A537;}
+
+
+/* GALLERY red COLOR */
+.red nav.primary ul li a.selected span, .red nav.primary ul li a span:hover {border-bottom-color:#D30017;}
+
+/* RESERVATIONS red COLOR */
+/*.red .reservations_logo {background:url("../../images/color/reservations_logo_red.png");}
+*/.red a.button, .red .button {border-color: #D30017; color: #D30017;}
+.red a.button:hover, .red .button:hover {background: #D30017; color: #ffffff;}
+
+/* TESTIMONIALS red COLOR */
+/*.red .testimonials_img {background:url("../../images/color/testimonials_logo_red.png");}
+*/.red section.testimonials h2 {color: #D30017;}
+.red .item span.author {color: #D30017;}
+.red .carousel-wrapper.with_pagination .owl-theme .owl-controls .owl-page span {border-color: #D30017;}
+.red .testimonials.carousel-wrapper.with_pagination .owl-controls .owl-page.active span, .red .testimonials.carousel-wrapper.with_pagination .owl-controls.clickable .owl-page:hover span {background: #D30017;}
+/* CONTACT red COLOR */
+.red a.button.contact, .red .button.contact {color: #ffffff;}
+.red a.button.contact:hover, .red .button.contact:hover {color: #D30017; background: #ffffff;}
+
+/* FOOTER red COLOR */
+.red #footer .social li .icon:hover {background:#D30017;}

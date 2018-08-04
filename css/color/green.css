@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* Color green CSS */
+
+.green .logo_elixir {background:url("../../images/color/logo_elixir_green.png");}
+.green #header .menu-item a:hover, .green #header .menu-item.current a {color: #9CC264;}
+.green #header .menu-item.current .submenu a {color: #fff;}
+.green #header .menu-item .submenu a:hover {color: #9CC264;}
+
+.green h2.section-title:before, .green h2.section-title:after {color: #9CC264;}
+
+
+.green .slide-sep {background: url("../../images/color/slide-separator_green.png");}
+.green h2.section-title:before, .green h2.section-title:after {content: url("../../images/color/header_decorator_green.png");}
+
+.green section.timetable .column-divider{background-image: url("../../images/color/column-divider_green.png");}
+.green section.reservations h4 span:before,
+.green section.reservations h4 span:after {
+  border-bottom: 1px solid #9CC264;
+}
+.green .section.dark h2.section-title:before, .green .section.dark h2.section-title:after {content: url("../../images/color/header_decorator_green.png");}
+
+
+/* HOME SLIDER green LOGO */
+.green .logointro {background:url("../../images/color/logo_intro_green.png");}
+
+@media only screen and (max-width : 568px) {
+	.green .logointro {
+		width: 160px;
+		height: 137px;
+		background-size: cover;
+		margin-top: 160px;
+		margin-bottom: 10px;
+
+}
+.green h2.section-title:before, .green h2.section-title:after, .green .section.dark h2.section-title:before, .green .section.dark h2.section-title:after {
+		content: none;
+	}
+}
+
+/* ABOUT green COLOR */
+.green h2.heading{color: #9CC264;}
+.green p.text strong {color: #9CC264;}
+
+/* OPENING HOURS green COLOR */
+.green section.timetable .section-subtitle {color: #9CC264;}
+.green section.timetable .section-subtitle.hours {color: #ffffff;}
+.green .timetable-decorator { background:url("../../images/color/timetable-decorator_green.png");}
+.green .timetable-decorator2 { background:url("../../images/color/timetable-decorator2_green.png");}
+
+/* MENU green COLOR */
+.green section.menu h3 {color: #8DAE5C;}
+.green section.menu span {color: #9CC264;}
+.green a.button.menu, .green .button.menu {
+	border: 2px solid #9CC264;
+	color: #9CC264;
+}
+.green a.button.menu:hover, .button.menu:hover {color: #ffffff; background: #9CC264;}
+
+.green section.menu .title {color: #8DAE5C;}
+.green section.menu .subtitle {color: #9CC264;}
+
+
+/* GALLERY green COLOR */
+.green nav.primary ul li a.selected span, .green nav.primary ul li a span:hover {border-bottom-color:#9CC264;}
+
+/* RESERVATIONS green COLOR */
+/*.green .reservations_logo {background:url("../../images/color/reservations_logo_green.png");}
+*/.green a.button, .green .button {border-color: #9CC264; color: #9CC264;}
+.green a.button:hover, .green .button:hover {background: #9CC264; color: #ffffff;}
+
+/* TESTIMONIALS green COLOR */
+/*.green .testimonials_img {background:url("../../images/color/testimonials_logo_green.png");}
+*/.green section.testimonials h2 {color: #9CC264;}
+.green .item span.author {color: #9CC264;}
+.green .carousel-wrapper.with_pagination .owl-theme .owl-controls .owl-page span {border-color: #9CC264;}
+.green .testimonials.carousel-wrapper.with_pagination .owl-controls .owl-page.active span, .green .testimonials.carousel-wrapper.with_pagination .owl-controls.clickable .owl-page:hover span {background: #9CC264;}
+/* CONTACT green COLOR */
+.green a.button.contact, .green .button.contact {color: #ffffff; background: #9CC264;}
+.green a.button.contact:hover, .green .button.contact:hover {color: #9CC264; background: #ffffff;}
+
+/* FOOTER green COLOR */
+.green #footer .social li .icon:hover {background:#9CC264;}
