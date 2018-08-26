@@ -2195,3 +2195,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-left: 10px;
   padding-right: 10px;
 } 
+
+.halftray {
+
+position:absolute; 
+left:200px; 
+top:-15px
+  }
