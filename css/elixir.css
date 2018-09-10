@@ -895,12 +895,7 @@ a:hover {text-decoration: none;}
 	color: #ffffff;
 }
 
-.section.dark h2.section-title:before, .section.dark h2.section-title:after {
-	content:url("../images/header_decorator_dark.png");
-	margin: 14px;
-	color: #D1BC87;
-	vertical-align: text-bottom;
-}
+
 
 .section.dark input[type="text"], .section.dark input[type="email"]{
 	background: #382F15;
@@ -989,12 +984,7 @@ section.dark textarea{
 			font-weight: 400;
 		}
 
-		h2.section-title:before, h2.section-title:after {
-			content:url("../images/header_decorator.png");
-			margin: 14px;
-			color: #D1BC87;
-			vertical-align: text-bottom;
-		}
+		
 
 		.section-subtitle {
 			text-align: center;
@@ -1220,10 +1210,7 @@ section.menu .title.first {
 }
 
 
-section.menu .title:before {
-content: url("../images/menu_title_line.png");
-margin-right: 20px;
- }
+
 
  section.menu .title:after {
 content: url("../images/menu_title_line.png");
@@ -2782,9 +2769,7 @@ nav.primary ul li{
 h2.section-title {
 	font-size: 24px;
 }
-h2.section-title:before, h2.section-title:after, .section.dark h2.section-title:before, .section.dark h2.section-title:after {
-		content: none;
-	}
+
 
 section.reservations h3 a {
 	color: #444342;
