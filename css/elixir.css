@@ -1322,12 +1322,7 @@ a.button.menu:hover, .button.menu:hover {
 
 
 
-a.button.menu:after, .button.menu:after {
-	content: url("../images/button_line.png");
-	position: absolute;
-	left: 350px;
 
-}
 
 .menu-logo {
 	margin-top: -20px;
