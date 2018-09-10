@@ -1320,12 +1320,7 @@ a.button.menu:hover, .button.menu:hover {
 	color: #ffffff;
 }
 
-a.button.menu:before, .button.menu:before {
-	content: url("../images/button_line.png");
-	position: absolute;
-	right: 350px;
 
-}
 
 a.button.menu:after, .button.menu:after {
 	content: url("../images/button_line.png");
@@ -2382,9 +2377,7 @@ ul.social {
 section.menu .title {
 	margin-top: 20px;
 }
-section.menu .title:before, section.menu .title:after {
-	content: none;
-}
+
 
 .section.about {
 	padding-bottom: 100px;
@@ -2415,10 +2408,7 @@ section.menu .title:before, section.menu .title:after {
 		margin: -20px auto 50px auto;
 	}
 
-	a.button.menu:before, .button.menu:before {
-	content: none;
 
-}
 
 a.button.menu:after, .button.menu:after {
 	content: none;
