@@ -1,0 +1,448 @@
+@font-face {
+    font-family: elsie-black;
+    src: url(/wp-content/elsie-black.ttf);
+}
+
+@font-face {
+    font-family: elsie-regular;
+    src: url(/wp-content/elsie-regular.ttf);
+}
+
+.gst-topnav-menu .menu-item a 
+{font-family:'elsie-black',serif;
+text-transform:none;
+font-size:18px;color:#fff;}
+
+.gst-tab-nav-title .gst-tab-nav-title-text {text-transform:none !important;font-family:'elsie-black',serif;color:#fff;font-size:20px;}
+
+.gst-tab--highlight .gst-tab-nav>.active .gst-tab-nav-line {height:75%;}
+
+label {
+    line-height: 2;
+	margin-bottom:10px;
+    font-size: 14px !important;
+    text-transform: none !important;
+	letter-spacing: 0 !important;
+    font-family: 'elsie-regular';
+	color:#1b0e0b;
+ }
+
+
+
+input[type=submit] {
+
+font-family: 'elsie-black',serif !important;
+text-transform: none !important;
+font-size:20px;
+letter-spacing:0 !important;
+    color: #fff;
+    background-color: #1b0e0b;
+    border-color: #1b0e0b;}
+
+input {
+color: #1b0e0b;
+    border-color: rgba(27, 14, 11, 0.15);}
+
+/* CARTA-COMIDAS */
+
+#pagewrap {
+	width: 100%;
+}
+
+#comidas, #vermus {
+	width: 100%;
+	float: left;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 992px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 100%;
+	}
+	#comidas, #vermus {
+		width: 100%;
+		padding: 1% 4%;
+	}
+	
+	header {
+		padding: 1% 4%;
+	}
+}
+
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+
+	#comidas, #vermus {
+		width: auto;
+		float: none;
+	}
+}
+
+/* for 320px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+}
+
+#comidas {
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   background: #e7e2db;
+   background-image: url("http://samanacoruna.com/wp-content/uploads/2017/09/loro2.png");
+   background-repeat: no-repeat;
+   background-position:right bottom;
+   opacity:0.85;
+}
+
+#vermus {
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   background: #e7e2db;
+   background-image: url("http://samanacoruna.com/wp-content/uploads/2017/09/loro2.png");
+   background-repeat: no-repeat;
+   background-position:right bottom;
+   opacity:0.85;
+   text-align: left;
+}
+
+
+/* CARTA-VINOS */
+
+#pagewrap {
+	width: 100%;
+}
+
+#vinos {
+	width: 100%;
+	float: left;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 992px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 100%;
+	}
+	#vinos{
+		width: 100%;
+		padding: 1% 4%;
+	}
+	
+	header {
+		padding: 1% 4%;
+	}
+}
+
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+
+	#vinos {
+		width: auto;
+		float: none;
+	}
+}
+
+/* for 320px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+}
+
+#vinos {
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   background: #e6eeef;
+   opacity:0.8;
+}
+
+
+/* CARTA-CÓCTELES */
+
+#pagewrap {
+	width: 100%;
+}
+
+#cocteles {
+	width: 100%;
+	float: left;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 992px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 100%;
+	}
+	#cocteles {
+		width: 100%;
+		padding: 1% 4%;
+	}
+	
+	header {
+		padding: 1% 4%;
+	}
+}
+
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+
+	#cocteles, #vermus {
+		width: auto;
+		float: none;
+	}
+}
+
+/* for 320px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+}
+
+#cocteles {
+   padding-left:35px;
+   padding-right:35px;
+   padding-top:35px;
+   background: #e4e3d6;
+   opacity:0.9;
+}
+
+/*VINOS*/
+
+table.vinos {
+    border-collapse: collapse;
+    width: 100%;
+    color: #204c2f;
+}
+
+td.vinos {
+    padding: 0 !important;
+    border: 0px;
+    text-align: left;
+    font-family: 'elsie-regular', serif;
+    font-size:14px;
+}
+
+td.precios {
+    padding: 0 !important;
+    border: 0px;
+    text-align: right;
+    font-family: 'elsie-regular', serif;
+    font-size:14px;
+}
+
+
+th.tipo {
+    padding: 0 !important;
+    text-align: left;
+    font-size:24px;
+    font-family: 'elsie-black', serif;
+}
+
+th.denominacion {
+    padding-left: 0 !important;
+	padding-top: 2 !important;
+	padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    text-align: left;
+    font-size:20px;
+    font-family: 'elsie-black', serif;
+}
+
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+/*COLUMNAS VINO Y CÓCTELES*/
+
+/* 1 column: 320px */
+.autowide {
+	width: 100%;
+}
+.autowide  img {
+  float: left;
+  margin: 0 .75rem 0 0;
+}
+.autowide  .module {
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+}
+.autowide  .module p {
+  padding: .25rem .75rem;
+}
+
+/* 2 columns: 600px */
+@media only screen and (min-width: 600px) {
+  .autowide  .module {
+		float: left;
+		margin-right: 2.564102564102564%;
+		width: 48.717948717948715%;
+	}
+	.autowide  .module:nth-child(2n+0) {
+		margin-right: 0;
+	}
+}
+
+/* 3 columns: 768px */
+@media only screen and (min-width: 768px) {
+  .autowide .module {
+		width: 31.623931623931625%;
+	}
+	.autowide .module:nth-child(2n+0) {
+		margin-right: 2.564102564102564%;
+	}
+	.autowide .module:nth-child(3n+0) {
+		margin-right: 0;
+	}
+}
+
+/* 4 columns: 992px and up */
+@media only screen and (min-width: 992px) {
+  .autowide .module {
+		width: 23.076923076923077%;
+	}
+	.autowide .module:nth-child(3n+0) {
+		margin-right: 2.564102564102564%;
+	}
+	.autowide .module:nth-child(4n+0) {
+		margin-right: 0;
+	}
+}
+
+/*CÓCTELES*/ 
+
+table.cocteles {
+    border-collapse: collapse;
+    width: 100%;
+    color: #868685;
+}
+#vermus {
+  border-collapse: collapse;
+    width: 100%;
+    color: #868685;
+}
+
+th.coctel, th.vermus {
+    padding: 0 !important;
+    border: 0px;
+    text-align: left;
+    font-family: 'elsie-black', serif;
+    font-size:16px;
+	line-height: -10px !important;
+}
+
+th.precios {
+    padding: 0 !important;
+    border: 0px;
+    text-align: right;
+    font-family: 'elsie-regular', serif;
+    font-size:16px;
+}
+
+td.ingredientes {
+    padding: 0 !important;
+    border: 0px;
+    text-align: left;
+    font-family: 'elsie-regular', serif;
+    font-size:14px;
+}
+
+
+
+th.tipo {
+    padding: 0 !important;
+    text-align: left;
+    font-size:24px;
+    font-family: 'elsie-black', serif;
+}
+
+th.denominacion {
+    padding-left: 0 !important;
+	padding-top: 2 !important;
+	padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    text-align: left;
+    font-size:20px;
+    font-family: 'elsie-black', serif;
+}
+
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+
+/*COLUMNAS COMIDAS*/
+
+/* 1 column: 320px */
+.comidas {
+	width: 100%;
+}
+.comidas img {
+  float: left;
+  margin: 0 .75rem 0 0;
+}
+.comidas .module {
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+}
+.comidas .module p {
+  padding: .25rem .75rem;
+}
+
+/* 2 columns: 600px */
+@media only screen and (min-width: 600px) {
+  .comidas .module {
+		float: left;
+		margin-right: 2.564102564102564%;
+		width: 48.717948717948715%;
+	}
+	.comidas .module:nth-child(2n+0) {
+		margin-right: 0;
+	}
+}
+
+
+/*COMIDAS*/
+
+table.comidas, #vermus {
+    border-collapse: collapse;
+    width: 100%;
+    color: #3c2822;
+}
+
+/*TABS*/
+
+
+div.tab-frame input{ display:none}
+div.tab-frame label{ display:block; float:left; padding:5px 10px; cursor:pointer; color:#000
+ ;}
+div.tab-frame input:checked + label{ background:black; color:white; cursor:default}
+div.tab-frame div.tab{ display:none; padding:5px 10px;clear:left}
+
+
+
+
+div.tab-frame input:nth-of-type(1):checked ~ .tab:nth-of-type(1),
+div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
+div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3),
+div.tab-frame input:nth-of-type(4):checked ~ .tab:nth-of-type(4){ display:block;}
