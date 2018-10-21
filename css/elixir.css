@@ -3120,7 +3120,11 @@ body, input, textarea {
 
 #regmenu{
 margin:0 auto;
-    display:block;
+display:block;
+border-radius: 16px;
+background-color: #8B4513;
+
+
 
 }
 
