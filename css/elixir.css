@@ -3123,8 +3123,9 @@ margin:0 auto;
 display:block;
 border-radius: 16px;
 background-color: #8B4513;
+}
 
-
-
+#footermap{
+	margin-top: 25px;
 }
 
