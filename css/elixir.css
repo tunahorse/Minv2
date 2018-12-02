@@ -3118,12 +3118,75 @@ body, input, textarea {
 
 }
 
-#regmenu{
+#uberbutton{
+position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 14px 40px;
+  border-radius: 16px;
+  background-color: 255,255,255;
+  border: 2px solid #4CAF50; /* Green */
+font: 15px arial, sans-serif;
+font-size: 20px;
+
+
+}
+
+
+#doorbutton{
+position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translateY(-10%);
+	padding: 14px 40px;
+  border-radius: 16px;
+  background-color:255,255,255;
+  border: 2px solid #4CAF50; /* Green */
+font: 15px arial, sans-serif;
+font-size: 20px;
+
+
+}
+
+
+#grubhubbutton{
 margin:0 auto;
 display:block;
 border-radius: 16px;
-background-color: #8B4513;
+float: right;
+padding: 14px 40px;
+background-color: 255,255,255;
+border: 2px solid #4CAF50; /* Green */
+font: 15px arial, sans-serif;
+font-size: 20px;
 }
+
+#regenubutton{
+margin:0 auto;
+display:block;
+border-radius: 16px;
+float: left;
+padding: 14px 40px;
+background-color: 255,255,255;
+border: 2px solid #4CAF50; /* Green */
+font: 15px arial, sans-serif;
+font-size: 20px;
+}
+
+#cateringmenu{
+margin:0 auto;
+display:block;
+border-radius: 16px;
+float: center;
+padding: 14px 40px;
+background-color: 255,255,255;
+border: 2px solid #4CAF50; /* Green */
+font: 15px arial, sans-serif;
+font-size: 20px;
+}
+
+
 
 #footermap{
 	margin-top: 25px;
